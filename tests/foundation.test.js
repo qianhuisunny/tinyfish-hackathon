@@ -94,3 +94,10 @@ test("provider boundary rejects private Fetch and Agent targets before network c
     /Private network|public/,
   );
 });
+
+test('event date cannot contradict the nearby changelog date', async () => {
+  const { eventDateAgrees } = await import('../src/validation.js');
+  const page = '### Push notifications\n_September 13, 2026 · Workflows_\nYou can now send push notifications';
+  assert.equal(eventDateAgrees(page, 'You can now send push notifications', '2026-10-08'), false);
+  assert.equal(eventDateAgrees(page, 'You can now send push notifications', '2026-09-13'), true);
+});

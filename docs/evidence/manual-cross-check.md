@@ -7,3 +7,5 @@ A separate browser inspection of that rendered page confirmed the title “James
 The Agent excerpt incorrectly begins with “CARLES SALVADOR” before quoting James's name and role. We preserved the original excerpt and recorded the discrepancy in the person's notes rather than rewriting machine evidence. Agent observations are not guaranteed literal quotations; review the linked source before outreach.
 
 The screenshot `live-contact-draft.png` shows a saved, human-reviewed draft, edited through the app after its initial template generation. The raw live-run artifact retains the original generated template so the application's actual output can be assessed separately.
+
+The source https://posthog.com/changelog.md was also re-read through live TinyFish Fetch. Push notifications appears under September 13, 2026, contradicting the Agent date October 8. That event was dismissed. Gmail duplicates is October 2 and MCP analytics is September 25, matching the saved dates. A regression test now covers the contradiction guard.

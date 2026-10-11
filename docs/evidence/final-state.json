@@ -1,0 +1,301 @@
+{
+  "checkedAt": "2026-10-11T22:29:05.694Z",
+  "companies": [
+    {
+      "name": "PostHog",
+      "domain": "posthog.com",
+      "productSummary": "B2B open-source product analytics software platform that serves as a 'product's context layer.' Ingests and stores analytics, errors, replays, and business data so teams and AI agents can query and act on it. Features include product analytics, session replay, error tracking, feature flags, experiments, surveys, data warehouse (120+ sources/destinations), CDP, workflows, logs, and AI observability. Usage-based pricing with generous free tiers (98% of customers use for free). Offers self-hosted and cloud options with 500,000+ teams.",
+      "fitReason": "PostHog is a B2B open-source product analytics software platform and developer tools company, directly matching the ideal customer criteria. They position themselves explicitly as developer tools, providing an all-in-one product OS with SDKs for JavaScript, Python, React Native, Android, iOS, and more. They are not an agency or consulting business. Their open-source nature is confirmed by their public GitHub repository (github.com/posthog/posthog) with 66k+ commits and 587+ contributors.",
+      "stage": null,
+      "painHypothesis": "Hypothesis: B2B companies building digital products struggle with fragmented analytics and product data that cannot be easily queried or integrated with their development workflows, leading to context-switching and delayed insights. PostHog solves this by unifying analytics, error tracking, session replays, feature flags, and warehouse data into a single queryable platform with developer-first tooling and AI agent integration.",
+      "sources": [
+        {
+          "url": "https://posthog.com/",
+          "excerpt": "PostHog ingests and stores your analytics, errors, replays, and business data so you and your agents can query and act on it. Join 500,000+ teams already shipping with PostHog.",
+          "checkedAt": "2026-10-11T21:54:42.588Z"
+        }
+      ],
+      "id": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "fitRank": 0,
+      "notes": "",
+      "listStatus": "confirmed",
+      "discoveredAt": "2026-10-11T21:54:42.594Z",
+      "deletedAt": null,
+      "criteriaVersion": 1,
+      "contactsResearchedAt": "2026-10-11T22:17:19.353Z",
+      "contactCoverageGaps": [
+        "No product marketing team page or product marketing personnel were found in publicly accessible areas of the PostHog website. No Product Marketing Manager or similar role could be identified.",
+        "The Customer Success NA-West and NA-North team pages returned empty or cookie-banner-only content, so current NA Customer Success team members could not be verified from public pages (though an open requisition for TCSM EMEA was found).",
+        "Charles Cook is listed as 'Generic Exec Person' overseeing marketing, brand & demand gen, and was previously first ops person scaling sales & support orgs - partial CS-adjacent responsibility but title does not match target roles.",
+        "No Product Marketing personnel were found despite checking the marketing team handbook page (https://posthog.com/handbook/marketing) and all available team pages.",
+        "The task explicitly says not to infer names from open vacancies (the TCSM EMEA open job was found but should not be included as it's a vacancy, not a current hire)."
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "James Hawkins",
+      "title": "Co-CEO",
+      "responsibility": "Founder / CEO",
+      "contactUrl": "https://x.com/james406",
+      "sources": [
+        {
+          "url": "https://posthog.com/community/profiles/27732",
+          "excerpt": "CARLES SALVADOR — page shows 'James Hawkins' and 'Co-CEO' with bio: 'I spent the first 10 years of my career trying to be a professional cyclist... I started working with Tim on a few ideas... We built PostHog during the Y Combinator W20 batch, and launched in February 2020.'",
+          "checkedAt": "2026-10-11T22:17:19.281Z",
+          "verificationMethod": "Agent browser"
+        }
+      ],
+      "id": "274cb34b-791d-4503-92ab-ff7847f5e54f",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "notes": "Manual cross-check on 2026-10-11: the rendered PostHog profile shows JAMES HAWKINS and Co-CEO. The Agent excerpt has an unrelated CARLES SALVADOR prefix; review original sources before outreach."
+    },
+    {
+      "name": "Tim Glaser",
+      "title": "co-ceo",
+      "responsibility": "Founder / CEO",
+      "contactUrl": null,
+      "sources": [
+        {
+          "url": "https://posthog.com/community/profiles/30173",
+          "excerpt": "Page shows 'Tim Glaser' and 'co-ceo' with bio: 'Originally from the Netherlands... James wanted to grab a beer... he convinced me to give up this fancy new job and instead start a startup with him.'",
+          "checkedAt": "2026-10-11T22:17:19.284Z",
+          "verificationMethod": "Agent browser"
+        }
+      ],
+      "id": "225e1b30-dc92-4077-af23-0235ad6ca07e",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "notes": ""
+    },
+    {
+      "name": "Christophe Eynius Tranberg",
+      "title": "Customer Vibe Optimizer",
+      "responsibility": "Customer Success",
+      "contactUrl": null,
+      "sources": [
+        {
+          "url": "https://posthog.com/community/profiles/35037",
+          "excerpt": "Page shows 'CHRISTOPHE EYNIUS TRANBERG' and 'CUSTOMER VIBE OPTIMIZER' location 'COPENHAGEN'",
+          "checkedAt": "2026-10-11T22:17:19.286Z",
+          "verificationMethod": "Agent browser"
+        }
+      ],
+      "id": "caf0652b-a729-493f-b73b-f37db785f0c2",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "notes": ""
+    },
+    {
+      "name": "Andre de Vries",
+      "title": "Technical CSM",
+      "responsibility": "Customer Success",
+      "contactUrl": "https://www.linkedin.com/in/andreelzedevries",
+      "sources": [
+        {
+          "url": "https://posthog.com/community/profiles/40554",
+          "excerpt": "Page shows 'Andre de Vries' and 'Technical CSM' with LinkedIn https://www.linkedin.com/in/andreelzedevries",
+          "checkedAt": "2026-10-11T22:17:19.305Z",
+          "verificationMethod": "Agent browser"
+        }
+      ],
+      "id": "a6bcb36a-1c4a-4137-a6bb-3ca2b7ee23f0",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "notes": ""
+    },
+    {
+      "name": "Ella Cullen",
+      "title": "Technical Customer Success Manager",
+      "responsibility": "Customer Success",
+      "contactUrl": null,
+      "sources": [
+        {
+          "url": "https://posthog.com/community/profiles/45795",
+          "excerpt": "Page shows 'Ella Cullen' and 'Technical Customer Success Manager' location 'Mayo, Ireland'",
+          "checkedAt": "2026-10-11T22:17:19.307Z",
+          "verificationMethod": "Agent browser"
+        }
+      ],
+      "id": "0c29cf08-6e62-4acb-ae64-01db81a3de58",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "notes": ""
+    },
+    {
+      "name": "Dana Zou",
+      "title": "Technical Customer Success Manager",
+      "responsibility": "Customer Success",
+      "contactUrl": "https://www.linkedin.com/in/dana-zou/",
+      "sources": [
+        {
+          "url": "https://posthog.com/community/profiles/32545",
+          "excerpt": "Page shows 'DANA ZOU' and 'TECHNICAL CUSTOMER SUCCESS MANAGER' location 'LONDON, UK' with LinkedIn https://www.linkedin.com/in/dana-zou/",
+          "checkedAt": "2026-10-11T22:17:19.310Z",
+          "verificationMethod": "Agent browser"
+        }
+      ],
+      "id": "4afd1114-ff85-4b23-b9ae-f39cf2dbd2de",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "notes": ""
+    },
+    {
+      "name": "Carles Salvador",
+      "title": "Technical Customer Success Manager",
+      "responsibility": "Customer Success",
+      "contactUrl": "https://www.linkedin.com/in/carles-salvador-a59320180/",
+      "sources": [
+        {
+          "url": "https://posthog.com/community/profiles/46197",
+          "excerpt": "Page shows 'CARLES SALVADOR' and 'TECHNICAL CUSTOMER SUCCESS MANAGER' location 'BARCELONA' with LinkedIn https://www.linkedin.com/in/carles-salvador-a59320180/",
+          "checkedAt": "2026-10-11T22:17:19.312Z",
+          "verificationMethod": "Agent browser"
+        }
+      ],
+      "id": "3ba24a61-f6e7-4649-8a50-b98a7ec34462",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "notes": ""
+    },
+    {
+      "name": "Sean Deehan",
+      "title": "Technical Customer Success Manager",
+      "responsibility": "Customer Success",
+      "contactUrl": "https://www.linkedin.com/in/sean-deehan/",
+      "sources": [
+        {
+          "url": "https://posthog.com/community/profiles/47338",
+          "excerpt": "Page shows 'Sean Deehan' and 'Technical Customer Success Manager' with LinkedIn https://www.linkedin.com/in/sean-deehan/",
+          "checkedAt": "2026-10-11T22:17:19.315Z",
+          "verificationMethod": "Agent browser"
+        }
+      ],
+      "id": "b87d2bec-081a-4b12-9bc4-390277420e0a",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "notes": ""
+    }
+  ],
+  "outreach": [
+    {
+      "id": "914f5aba-470e-4175-afcb-edd7df9c4f33",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "personId": "274cb34b-791d-4503-92ab-ff7847f5e54f",
+      "eventId": null,
+      "draft": "Hi James,\n\nI saw that you co-founded PostHog. I’m validating Product Gym: hands-on environments where customers learn a software product by using it, with exercises informed by the codebase and telemetry showing where they struggle.\n\nI’d love to understand how PostHog helps customers learn newly released features, and whether keeping that education current is a problem for your team.\n\nWould you be open to a 15-minute conversation? This is customer research for an early idea.",
+      "status": "draft",
+      "sentText": null,
+      "sentAt": null,
+      "replySummary": "",
+      "createdAt": "2026-10-11T22:17:22.912Z",
+      "composition": "Evidence-grounded template; review before sending"
+    }
+  ],
+  "events": [
+    {
+      "type": "product",
+      "summary": "Push notifications launched in Workflows for iOS and Android",
+      "evidence": "You can now send push notifications to iOS and Android apps from a workflow step. Connect a Firebase Cloud Messaging or APNs channel",
+      "priority": 3,
+      "sourceUrl": "https://posthog.com/changelog.md",
+      "occurredAt": "2026-10-08",
+      "relevanceReason": "Major new notification channel integration enabling push notifications from workflows with Firebase and APNs",
+      "id": "333c827e-82e5-4f5a-838b-964d2875370c",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "dedupeKey": "c651c2bf582810b994df6bb448a2b232a4974d0f627f8307ef2c1870f125ec57",
+      "matchesCriteria": true,
+      "status": "dismissed",
+      "detectedAt": "2026-10-11T22:27:09.933Z",
+      "sources": [
+        {
+          "url": "https://posthog.com/changelog.md",
+          "excerpt": "You can now send push notifications to iOS and Android apps from a workflow step. Connect a Firebase Cloud Messaging or APNs channel",
+          "checkedAt": "2026-10-11T22:27:09.932Z"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "summary": "Self-driving inbox redesigned with three-tab layout, report triage improvements, and right-click actions",
+      "evidence": "The redesigned Self-driving inbox has become much easier to work through, with a simpler setup flow and less back-and-forth for report triage",
+      "priority": 3,
+      "sourceUrl": "https://posthog.com/changelog.md",
+      "occurredAt": "2026-09-10",
+      "relevanceReason": "Significant UX overhaul of the Self-driving inbox, a core product feature",
+      "id": "d368a3b5-7981-4dbc-9a88-99b6b5cab904",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "dedupeKey": "7f0475c8d5955a9fcdd24ccadb34bd8ef35bbc7ebddde3a4e6e931c5a47747d6",
+      "matchesCriteria": true,
+      "status": "new",
+      "detectedAt": "2026-10-11T22:27:09.933Z",
+      "sources": [
+        {
+          "url": "https://posthog.com/changelog.md",
+          "excerpt": "The redesigned Self-driving inbox has become much easier to work through, with a simpler setup flow and less back-and-forth for report triage",
+          "checkedAt": "2026-10-11T22:27:09.933Z"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "summary": "Self-driving inbox redesign with three-tab layout and report triage improvements",
+      "evidence": "The redesigned Self-driving inbox has become much easier to work through",
+      "priority": 3,
+      "sourceUrl": "https://posthog.com/changelog.md",
+      "occurredAt": "2026-09-03",
+      "relevanceReason": "Significant UX overhaul of the Self-driving inbox",
+      "id": "726c1c4b-d262-4e15-b904-7cc0edfe6e86",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "dedupeKey": "f82fa9cc0f24f8a5974ceea3010824a76015b67475d192dab2e8d7cc77fe66f3",
+      "matchesCriteria": true,
+      "status": "new",
+      "detectedAt": "2026-10-11T22:27:09.933Z",
+      "sources": [
+        {
+          "url": "https://posthog.com/changelog.md",
+          "excerpt": "The redesigned Self-driving inbox has become much easier to work through",
+          "checkedAt": "2026-10-11T22:27:09.933Z"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "summary": "Gmail duplicate prevention implemented",
+      "evidence": "PostHog treats dotted Gmail addresses and googlemail.com as the same mailbox, closing a way to create duplicate active accounts",
+      "priority": 3,
+      "sourceUrl": "https://posthog.com/changelog.md",
+      "occurredAt": "2026-10-02",
+      "relevanceReason": "Security/UX fix closing a duplicate account creation vector via Gmail address variations",
+      "id": "3f44012e-f321-45bf-a1e5-5c2195bff9a6",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "dedupeKey": "21a46ed1ebbfca1eb3d2e6b4c04dc9fd100a43d1f2169668b06fcb94ceef4757",
+      "matchesCriteria": true,
+      "status": "new",
+      "detectedAt": "2026-10-11T22:27:09.933Z",
+      "sources": [
+        {
+          "url": "https://posthog.com/changelog.md",
+          "excerpt": "PostHog treats dotted Gmail addresses and googlemail.com as the same mailbox, closing a way to create duplicate active accounts",
+          "checkedAt": "2026-10-11T22:27:09.933Z"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "summary": "MCP analytics launched by default with model information capture",
+      "evidence": "MCP instrumentation now captures model information and keeps related tool calls in the same conversation by default",
+      "priority": 3,
+      "sourceUrl": "https://posthog.com/changelog.md",
+      "occurredAt": "2026-09-25",
+      "relevanceReason": "Default behavior change for MCP instrumentation, capturing model info and grouping tool calls",
+      "id": "1f154e00-cc60-44b5-92bf-47d8e06d5769",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "dedupeKey": "fc99360cbd02fc5a1f7a93bea2d85781bc04f4ccb99a66fd443447236960972e",
+      "matchesCriteria": true,
+      "status": "new",
+      "detectedAt": "2026-10-11T22:27:09.933Z",
+      "sources": [
+        {
+          "url": "https://posthog.com/changelog.md",
+          "excerpt": "MCP instrumentation now captures model information and keeps related tool calls in the same conversation by default",
+          "checkedAt": "2026-10-11T22:27:09.933Z"
+        }
+      ]
+    }
+  ],
+  "notes": "Reviewed snapshot; raw run retained separately. No messages sent."
+}

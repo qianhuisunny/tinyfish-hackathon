@@ -6,6 +6,7 @@ import {
   text,
   validateResearch,
   companyOwnedEvidence,
+  eventDateAgrees,
 } from "./validation.js";
 const id = () => randomUUID();
 const now = () => new Date().toISOString();
@@ -608,6 +609,8 @@ export class App {
                 .includes(e.evidence.toLowerCase().replace(/\s+/g, " "))
             )
               throw Error("Exact event quote not verified");
+            if (!eventDateAgrees(page.text, e.evidence, e.occurredAt))
+              throw Error("Event date contradicts nearby source date");
             verified.push(e);
           } catch (error) {
             complete = false;

@@ -1,0 +1,5092 @@
+{
+  "checkedAt": "2026-10-11T22:27:11.778Z",
+  "product": "https://product-gym-demo.qianhuisun.chatgpt.site/#the-gym",
+  "target": {
+    "name": "PostHog",
+    "domain": "posthog.com",
+    "sources": [
+      {
+        "url": "https://posthog.com/",
+        "excerpt": "PostHog ingests and stores your analytics, errors, replays, and business data so you and your agents can query and act on it. Join 500,000+ teams already shipping with PostHog.",
+        "checkedAt": "2026-10-11T21:54:42.588Z"
+      }
+    ]
+  },
+  "contact": {
+    "name": "James Hawkins",
+    "title": "Co-CEO",
+    "sources": [
+      {
+        "url": "https://posthog.com/community/profiles/27732",
+        "excerpt": "CARLES SALVADOR — page shows 'James Hawkins' and 'Co-CEO' with bio: 'I spent the first 10 years of my career trying to be a professional cyclist... I started working with Tim on a few ideas... We built PostHog during the Y Combinator W20 batch, and launched in February 2020.'",
+        "checkedAt": "2026-10-11T22:17:19.281Z",
+        "verificationMethod": "Agent browser"
+      }
+    ]
+  },
+  "draft": "Hi James,\n\nI came across PostHog and your work as Co-CEO.\n\nI’m exploring Product Gym: Product Gym is a concept being validated: codebase-informed hands-on practice environments where customers learn to use software by doing, with behavioral telemetry to reveal which workflows they master or struggle with.\n\nI’m reaching out for customer interviews and would value your perspective on People responsible for helping customers understand, adopt and use a complex software product.. I’m still validating whether this is useful.\n\nWould you be open to a 15-minute conversation about how customers learn newly released features?",
+  "primitives": [
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T21:44:16.860Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T21:47:57.554Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T21:48:01.634Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T21:48:04.210Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T21:48:05.456Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:48:06.300Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:48:06.465Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:48:11.871Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:48:17.126Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:48:22.430Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:48:27.813Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:48:32.987Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:48:38.497Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:48:43.605Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:48:48.911Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:48:54.118Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:48:59.470Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:49:04.691Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:49:09.957Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:49:15.337Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:49:20.778Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:49:25.861Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:49:31.125Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:49:36.315Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:49:41.541Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:49:46.771Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:49:51.913Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:49:57.085Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:50:02.394Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:50:07.758Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:50:13.036Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:50:18.138Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:50:23.284Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:50:28.626Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:50:33.742Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:50:39.078Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:50:44.332Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:50:49.515Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:50:54.684Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:50:59.800Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:51:05.024Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:51:10.191Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:51:15.744Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:54:41.169Z",
+      "status": "completed",
+      "runId": "ff586c5e-e266-4a86-a125-173fe8517df4"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T21:54:42.564Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T21:54:44.117Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:54:44.516Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:54:44.671Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:54:50.054Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:54:55.188Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:55:00.415Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:55:05.624Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:55:10.743Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:55:15.908Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:55:21.084Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:55:26.267Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:55:31.514Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:55:36.602Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:55:41.777Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:55:47.028Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:55:52.109Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:55:57.198Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:56:02.368Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:56:07.577Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:56:12.721Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:56:17.982Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:56:23.075Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:56:28.191Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:56:33.261Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:56:38.417Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:56:43.515Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:56:49.094Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:56:54.221Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:56:59.383Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:57:04.728Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:57:09.985Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:57:15.294Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:57:20.528Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:57:25.672Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:57:31.194Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:57:36.375Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:57:41.481Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:57:46.632Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:57:51.997Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:57:57.115Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:58:02.536Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:58:07.611Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:58:12.676Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:58:17.813Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:58:23.028Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:58:28.105Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:58:33.267Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:58:38.478Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:58:43.723Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:58:48.962Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:58:54.213Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:58:59.328Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:59:04.799Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:59:10.075Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:59:15.439Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:59:20.558Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:59:25.857Z",
+      "status": "completed",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T21:59:26.763Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T21:59:28.013Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T21:59:29.058Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T21:59:30.222Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T21:59:32.670Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T21:59:33.868Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T21:59:35.409Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:59:35.900Z",
+      "status": "completed",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:59:36.040Z",
+      "status": "completed",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:59:41.119Z",
+      "status": "completed",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:59:46.190Z",
+      "status": "completed",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:59:51.367Z",
+      "status": "completed",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T21:59:56.728Z",
+      "status": "completed",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:02.653Z",
+      "status": "completed",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:07.831Z",
+      "status": "completed",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:12.997Z",
+      "status": "completed",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:18.152Z",
+      "status": "completed",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:23.225Z",
+      "status": "completed",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:28.308Z",
+      "status": "completed",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:33.389Z",
+      "status": "completed",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:00:37.615Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:00:37.698Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:00:39.082Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:00:39.117Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:39.234Z",
+      "status": "COMPLETED",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:00:40.156Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:00:40.822Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:41.206Z",
+      "status": "submitted",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:41.322Z",
+      "status": "PENDING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:00:41.440Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:00:42.543Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:00:44.729Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:00:45.762Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:46.720Z",
+      "status": "PENDING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:00:46.728Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:00:48.099Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:48.333Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:51.886Z",
+      "status": "PENDING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:53.451Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:56.976Z",
+      "status": "PENDING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:00:58.534Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:02.055Z",
+      "status": "PENDING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:03.630Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:07.195Z",
+      "status": "PENDING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:08.715Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:12.355Z",
+      "status": "PENDING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:13.782Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:17.396Z",
+      "status": "PENDING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:18.947Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:22.471Z",
+      "status": "PENDING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:24.007Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:27.534Z",
+      "status": "PENDING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:29.061Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:32.576Z",
+      "status": "PENDING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:34.375Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:37.762Z",
+      "status": "PENDING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:39.672Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:43.125Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:44.728Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:48.320Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:49.874Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:53.384Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:54.903Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:01:58.507Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:00.037Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:03.559Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:05.123Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:08.597Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:10.181Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:13.811Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:15.297Z",
+      "status": "RUNNING",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:18.948Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:20.484Z",
+      "status": "COMPLETED",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:02:21.862Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:02:22.916Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:02:23.984Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:24.216Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:02:25.213Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:02:26.672Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:02:27.825Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:02:28.966Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:29.418Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:02:30.061Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:02:31.167Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:02:32.251Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:02:33.399Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:02:34.383Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:34.588Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:02:35.142Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:35.758Z",
+      "status": "submitted",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:35.891Z",
+      "status": "PENDING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:39.638Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:41.015Z",
+      "status": "PENDING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:44.780Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:46.373Z",
+      "status": "PENDING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:50.898Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:51.409Z",
+      "status": "PENDING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:56.064Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:02:56.549Z",
+      "status": "PENDING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:01.265Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:01.599Z",
+      "status": "PENDING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:06.375Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:06.724Z",
+      "status": "RUNNING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:11.447Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:11.767Z",
+      "status": "RUNNING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:16.606Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:16.825Z",
+      "status": "RUNNING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:21.758Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:21.859Z",
+      "status": "RUNNING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:26.828Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:27.025Z",
+      "status": "RUNNING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:31.899Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:32.198Z",
+      "status": "RUNNING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:37.103Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:37.468Z",
+      "status": "RUNNING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:42.292Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:42.512Z",
+      "status": "RUNNING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:47.609Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:47.914Z",
+      "status": "RUNNING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:52.717Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:52.956Z",
+      "status": "RUNNING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:58.025Z",
+      "status": "RUNNING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:03:58.180Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:03.174Z",
+      "status": "RUNNING",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:03.240Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:08.378Z",
+      "status": "COMPLETED",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:08.387Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:04:08.978Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:04:10.656Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:10.989Z",
+      "status": "submitted",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:11.140Z",
+      "status": "PENDING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:13.844Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:04:19.021Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:04:19.038Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:04:19.109Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:04:20.669Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:04:20.779Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:20.961Z",
+      "status": "COMPLETED",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:20.973Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:04:21.997Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:04:23.866Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:23.949Z",
+      "status": "COMPLETED",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:04:24.971Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:25.222Z",
+      "status": "COMPLETED",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:04:25.989Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:26.058Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:26.241Z",
+      "status": "PENDING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:31.213Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:31.294Z",
+      "status": "PENDING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:36.362Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:36.415Z",
+      "status": "PENDING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:41.669Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:41.717Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:46.783Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:46.788Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:51.971Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:52.038Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:57.139Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:04:57.207Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:02.221Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:02.380Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:07.301Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:07.434Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:12.480Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:12.729Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:17.639Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:17.816Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:22.703Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:22.957Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:28.105Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:28.217Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:33.180Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:33.340Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:38.322Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:38.396Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:43.475Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:43.478Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:48.628Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:48.645Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:53.804Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:53.906Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:58.898Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:05:59.044Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:03.994Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:04.117Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:09.081Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:09.162Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:14.310Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:14.336Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:19.489Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:19.491Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:24.589Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:24.743Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:29.699Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:29.970Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:34.792Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:35.023Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:39.946Z",
+      "status": "RUNNING",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:40.105Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:45.196Z",
+      "status": "COMPLETED",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:45.257Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:06:46.222Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:46.480Z",
+      "status": "submitted",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:46.582Z",
+      "status": "PENDING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:50.403Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:06:51.625Z",
+      "status": "PENDING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:08:02.774Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:08:02.777Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:08:02.841Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:08:04.057Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:04.304Z",
+      "status": "COMPLETED",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:08:04.570Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:04.770Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:08:09.098Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:09.949Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:08:10.543Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:10.602Z",
+      "status": "COMPLETED",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:08:11.387Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:11.430Z",
+      "status": "COMPLETED",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:08:12.302Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:12.340Z",
+      "status": "COMPLETED",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:08:12.921Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:13.223Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:15.000Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:18.364Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:20.043Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:23.428Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:25.423Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:28.520Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:30.538Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:33.567Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:35.659Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:38.596Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:40.699Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:43.710Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:45.792Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:48.796Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:50.889Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:53.834Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:55.927Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:08:58.931Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:00.968Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:04.000Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:06.160Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:09.028Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:11.294Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:14.332Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:16.335Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:19.370Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:21.380Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:24.448Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:26.533Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:29.498Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:31.592Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:34.592Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:36.730Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:39.663Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:41.808Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:44.760Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:46.855Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:49.811Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:51.916Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:54.865Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:56.980Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:09:59.908Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:10:02.055Z",
+      "status": "RUNNING",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:10:05.015Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:10:07.183Z",
+      "status": "COMPLETED",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:10:09.022Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:10:09.779Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:10:10.084Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:10:12.175Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:10:13.393Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:10:14.223Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:10:14.988Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:10:15.338Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:10:16.004Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:10:16.839Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:10:20.612Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:10:25.776Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:10:30.881Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:10:36.031Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:10:41.111Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:10:46.365Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:10:51.706Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:10:57.462Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:11:02.607Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:11:07.774Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:11:13.485Z",
+      "status": "RUNNING",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:11:18.782Z",
+      "status": "COMPLETED",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:11:21.684Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:11:24.024Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:11:24.479Z",
+      "status": "submitted",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:11:24.612Z",
+      "status": "PENDING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:11:29.988Z",
+      "status": "PENDING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:11:35.266Z",
+      "status": "PENDING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:11:40.334Z",
+      "status": "PENDING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:11:45.510Z",
+      "status": "PENDING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:11:50.574Z",
+      "status": "PENDING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:11:55.821Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:00.885Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:05.980Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:11.048Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:16.121Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:21.273Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:12:33.713Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:12:33.716Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:12:33.803Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:35.179Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:35.586Z",
+      "status": "COMPLETED",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:35.943Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:36.188Z",
+      "status": "COMPLETED",
+      "runId": "acbd61a7-0867-4490-b252-a538b2c014b6"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:36.667Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:36.937Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:37.596Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:38.255Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:39.304Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:40.019Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:40.390Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:40.678Z",
+      "status": "COMPLETED",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:40.733Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:41.450Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:41.452Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:41.571Z",
+      "status": "COMPLETED",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:42.236Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:42.508Z",
+      "status": "submitted",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:42.516Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:42.705Z",
+      "status": "COMPLETED",
+      "runId": "62818d8f-ae00-4d8a-9d1b-fde2d9108382"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:42.710Z",
+      "status": "PENDING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:43.317Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:43.408Z",
+      "status": "COMPLETED",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:44.340Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:12:44.837Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:44.966Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:47.747Z",
+      "status": "PENDING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:50.052Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:52.777Z",
+      "status": "PENDING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:55.100Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:12:57.837Z",
+      "status": "PENDING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:00.144Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:02.878Z",
+      "status": "PENDING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:05.201Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:07.904Z",
+      "status": "PENDING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:10.237Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:13.055Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:15.351Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:18.081Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:20.385Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:23.125Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:25.444Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:28.249Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:30.534Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:33.277Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:35.590Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:38.386Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:40.638Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:43.531Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:45.747Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:48.578Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:50.807Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:53.619Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:55.850Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:13:58.659Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:00.896Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:03.694Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:06.012Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:08.733Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:11.056Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:13.844Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:16.196Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:18.875Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:21.342Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:23.919Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:26.469Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:28.959Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:31.508Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:34.030Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:36.545Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:39.075Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:41.660Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:44.259Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:46.783Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:49.297Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:51.813Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:54.542Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:56.859Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:14:59.575Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:01.903Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:04.700Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:06.965Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:09.753Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:12.080Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:14.881Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:17.292Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:19.931Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:22.423Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:26.046Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:27.487Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:31.093Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:32.516Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:36.197Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:37.641Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:41.251Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:42.696Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:46.473Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:47.861Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:51.511Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:53.002Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:56.620Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:15:58.135Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:01.667Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:03.194Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:06.764Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:08.240Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:11.838Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:13.357Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:17.012Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:18.460Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:22.102Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:23.500Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:27.242Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:28.582Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:32.301Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:33.624Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:37.347Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:38.688Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:42.450Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:43.811Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:47.576Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:49.053Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:52.708Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:54.119Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:57.757Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:16:59.174Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:02.807Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:04.300Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:08.615Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:09.498Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:13.891Z",
+      "status": "RUNNING",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:14.607Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:19.210Z",
+      "status": "COMPLETED",
+      "runId": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:19.732Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:17:22.344Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:17:23.773Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:24.274Z",
+      "status": "submitted",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:24.397Z",
+      "status": "PENDING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:25.025Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:29.617Z",
+      "status": "PENDING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:30.120Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:34.712Z",
+      "status": "PENDING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:35.194Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:39.873Z",
+      "status": "PENDING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:40.253Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:44.963Z",
+      "status": "PENDING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:45.339Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:50.049Z",
+      "status": "PENDING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:50.479Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:55.214Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:17:55.623Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:18:00.500Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:18:00.705Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:18:05.702Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:18:05.844Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:18:10.860Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:18:10.944Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:18:16.080Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:18:16.154Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:18:21.300Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:18:21.444Z",
+      "status": "RUNNING",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:19:22.356Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:19:23.399Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Search",
+      "checkedAt": "2026-10-11T22:19:25.833Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:19:26.864Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:19:26.869Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:26.947Z",
+      "status": "COMPLETED",
+      "runId": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:27.038Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:19:28.420Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:19:30.661Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:30.706Z",
+      "status": "COMPLETED",
+      "runId": "0160a74c-ce50-4391-85b3-e8662ee8b460"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:19:31.591Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:31.705Z",
+      "status": "COMPLETED",
+      "runId": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:32.116Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:19:32.303Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:32.445Z",
+      "status": "COMPLETED",
+      "runId": "a502465d-6da2-45d8-a0d0-128f5e5641ea"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:19:33.319Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:19:33.969Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:34.391Z",
+      "status": "submitted",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:34.548Z",
+      "status": "PENDING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:37.372Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:39.791Z",
+      "status": "PENDING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:42.624Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:45.103Z",
+      "status": "PENDING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:47.668Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:50.150Z",
+      "status": "PENDING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:52.698Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:55.197Z",
+      "status": "PENDING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:19:57.893Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:00.270Z",
+      "status": "PENDING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:02.929Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:06.214Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:07.977Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:11.426Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:13.017Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:16.470Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:18.074Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:21.597Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:23.174Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:26.684Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:28.290Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:31.751Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:33.345Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:36.873Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:38.773Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:42.551Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:44.240Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:47.681Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:49.317Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:52.878Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:54.485Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:58.319Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:20:59.860Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:03.652Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:04.946Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:08.812Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:10.175Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:13.893Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:15.224Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:19.285Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:20.369Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:24.346Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:25.434Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:29.386Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:30.609Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:34.425Z",
+      "status": "RUNNING",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:35.670Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:39.631Z",
+      "status": "COMPLETED",
+      "runId": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:40.710Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:21:41.352Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:21:41.918Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:42.153Z",
+      "status": "COMPLETED",
+      "runId": "83eb8234-e676-4404-a741-d2183e663b3e"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:21:43.208Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:43.706Z",
+      "status": "submitted",
+      "runId": "8b7a1f14-cd31-43a2-8cac-b6ac97ff5972"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:43.830Z",
+      "status": "PENDING",
+      "runId": "8b7a1f14-cd31-43a2-8cac-b6ac97ff5972"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:45.830Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:49.066Z",
+      "status": "PENDING",
+      "runId": "8b7a1f14-cd31-43a2-8cac-b6ac97ff5972"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:50.950Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:54.198Z",
+      "status": "PENDING",
+      "runId": "8b7a1f14-cd31-43a2-8cac-b6ac97ff5972"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:56.072Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:21:59.243Z",
+      "status": "PENDING",
+      "runId": "8b7a1f14-cd31-43a2-8cac-b6ac97ff5972"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:01.199Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:04.321Z",
+      "status": "PENDING",
+      "runId": "8b7a1f14-cd31-43a2-8cac-b6ac97ff5972"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:06.283Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:09.420Z",
+      "status": "PENDING",
+      "runId": "8b7a1f14-cd31-43a2-8cac-b6ac97ff5972"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:11.495Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:15.055Z",
+      "status": "FAILED",
+      "runId": "8b7a1f14-cd31-43a2-8cac-b6ac97ff5972"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:22:16.448Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:16.762Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:16.989Z",
+      "status": "submitted",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:17.341Z",
+      "status": "PENDING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:22.059Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:22.398Z",
+      "status": "PENDING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:27.593Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:27.600Z",
+      "status": "PENDING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:33.237Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:33.886Z",
+      "status": "PENDING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:38.515Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:38.946Z",
+      "status": "PENDING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:43.763Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:44.094Z",
+      "status": "PENDING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:49.024Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:49.278Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:54.168Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:54.387Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:59.292Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:22:59.478Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:04.606Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:04.638Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:09.798Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:10.101Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:15.102Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:15.267Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:20.338Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:20.351Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:25.519Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:25.521Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:30.743Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:30.763Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:36.197Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:36.530Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:41.367Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:41.847Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:46.617Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:47.005Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:52.380Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:52.392Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:57.479Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:23:57.482Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:02.864Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:02.917Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:08.014Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:08.121Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:13.241Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:13.350Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:18.409Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:18.482Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:23.638Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:23.669Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:28.778Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:29.039Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:34.383Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:34.482Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:39.592Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:39.774Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:44.826Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:44.959Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:50.076Z",
+      "status": "RUNNING",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:50.149Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:55.323Z",
+      "status": "COMPLETED",
+      "runId": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:24:55.337Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:25:01.013Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:25:06.366Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:25:12.005Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:25:17.336Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:25:22.537Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:25:27.756Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:25:33.001Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:25:38.628Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:25:43.889Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:25:49.143Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:25:54.403Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:26:00.140Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:26:05.536Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:26:10.700Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:26:15.880Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:26:21.314Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:26:26.614Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:26:31.732Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:26:36.908Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:26:42.103Z",
+      "status": "RUNNING",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Agent",
+      "checkedAt": "2026-10-11T22:26:47.344Z",
+      "status": "COMPLETED",
+      "runId": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:26:48.987Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:26:49.925Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:26:50.617Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:26:52.758Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:26:54.899Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:26:56.779Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:26:57.439Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:26:58.071Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:26:58.723Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:26:59.637Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:27:00.547Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:27:01.200Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:27:02.130Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:27:05.360Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:27:06.070Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:27:06.796Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:27:07.445Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:27:08.191Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:27:08.892Z",
+      "status": "completed",
+      "runId": null
+    },
+    {
+      "primitive": "Fetch",
+      "checkedAt": "2026-10-11T22:27:09.924Z",
+      "status": "completed",
+      "runId": null
+    }
+  ],
+  "coverage": [
+    {
+      "type": "analyze",
+      "status": "failed",
+      "message": "Could not read the product. Paste a description to continue. target_http_error",
+      "queriesCompleted": [],
+      "coverageGaps": [],
+      "agentRuns": {}
+    },
+    {
+      "type": "analyze",
+      "status": "completed",
+      "message": "Finished",
+      "queriesCompleted": [],
+      "coverageGaps": [],
+      "agentRuns": {}
+    },
+    {
+      "type": "discover",
+      "status": "partial",
+      "message": "Finished",
+      "queriesCompleted": [
+        {
+          "query": "Developer tools  B2B open-source product analytics software platforms, for example PostHog and comparable companies. Exclude agencies and consulting businesses. companies official product website",
+          "page": 0,
+          "count": 10
+        },
+        {
+          "query": "Developer tools  B2B open-source product analytics software platforms, for example PostHog and comparable companies. Exclude agencies and consulting businesses. companies official product website",
+          "page": 1,
+          "count": 10
+        },
+        {
+          "query": "Developer tools  B2B open-source product analytics software platforms, for example PostHog and comparable companies. Exclude agencies and consulting businesses. companies official product website",
+          "page": 0,
+          "count": 10
+        },
+        {
+          "query": "Developer tools  B2B open-source product analytics software platforms, for example PostHog and comparable companies. Exclude agencies and consulting businesses. companies official product website",
+          "page": 1,
+          "count": 10
+        },
+        {
+          "query": "Developer tools  B2B open-source product analytics software platforms, for example PostHog and comparable companies. Exclude agencies and consulting businesses. companies official product website",
+          "page": 0,
+          "count": 10
+        },
+        {
+          "query": "Developer tools  B2B open-source product analytics software platforms, for example PostHog and comparable companies. Exclude agencies and consulting businesses. companies official product website",
+          "page": 1,
+          "count": 10
+        },
+        {
+          "query": "Developer tools  B2B open-source product analytics software platforms, for example PostHog and comparable companies. Exclude agencies and consulting businesses. companies official product website",
+          "page": 0,
+          "count": 10
+        },
+        {
+          "query": "Developer tools  B2B open-source product analytics software platforms, for example PostHog and comparable companies. Exclude agencies and consulting businesses. companies official product website",
+          "page": 1,
+          "count": 10
+        },
+        {
+          "query": "Developer tools  B2B open-source product analytics software platforms, for example PostHog and comparable companies. Exclude agencies and consulting businesses. companies official product website",
+          "page": 0,
+          "count": 10
+        },
+        {
+          "query": "Developer tools  B2B open-source product analytics software platforms, for example PostHog and comparable companies. Exclude agencies and consulting businesses. companies official product website",
+          "page": 1,
+          "count": 10
+        },
+        {
+          "query": "Developer tools  B2B open-source product analytics software platforms, for example PostHog and comparable companies. Exclude agencies and consulting businesses. companies official product website",
+          "page": 0,
+          "count": 10
+        },
+        {
+          "query": "Developer tools  B2B open-source product analytics software platforms, for example PostHog and comparable companies. Exclude agencies and consulting businesses. companies official product website",
+          "page": 1,
+          "count": 10
+        }
+      ],
+      "coverageGaps": [
+        "8 additional source domains remain outside this run's 8-source browser budget. This is planned coverage, not the entire market.",
+        "No comparable companies listed on the PostHog homepage or navigable directory on this domain. The 'Open Customers' link (https://posthog.com/customers) and customer logos appear to lead to customer case studies rather than a comprehensive competitor or comparable company list.",
+        "Funding stage information is not available on the website. While the GitHub repo confirms open-source status, specific funding rounds or investor information would require external sources (e.g., Crunchbase, PitchBook).",
+        "The task instructed to gather ALL clearly matching companies from the source, but PostHog's site only covers their own product. No comparable B2B open-source product analytics companies (e.g., Amplitude, Mixpanel, Heap, TelemetryDeck, or others) are listed or linked within this domain.",
+        "None of the 6 companies listed are explicitly described as open-source in the article, unlike PostHog which is emphasized as open-source. The criteria mentions 'B2B open-source product analytics software platforms' — none of these alternatives are open-source.",
+        "The article does not provide funding stage information for any of the 6 companies (Mixpanel, Amplitude, Fullstory, Heap, Google Analytics, LogRocket), so stage cannot be determined from this source.",
+        "Google Analytics (GA4) is primarily a web analytics and marketing attribution tool rather than a dedicated product analytics platform, making it a less direct comparison to PostHog than the other 5 companies.",
+        "Fullstory and LogRocket lean more toward qualitative insights, session replay, and debugging than comprehensive product analytics, making them partial fits compared to PostHog's quantitative and developer-focused approach.",
+        "Exact supporting quote unavailable for Mixpanel",
+        "Exact supporting quote unavailable for Amplitude",
+        "Exact supporting quote unavailable for Fullstory",
+        "Exact supporting quote unavailable for Heap (by ContentSquare)",
+        "Exact supporting quote unavailable for Google Analytics (GA4)",
+        "Exact supporting quote unavailable for LogRocket",
+        "7 additional source domains remain outside this run's 8-source browser budget. This is planned coverage, not the entire market.",
+        "None of the 6 companies listed are explicitly described as open-source in the article, unlike PostHog which is emphasized as open-source. The criteria mentions 'B2B open-source product analytics software platforms' — none of these alternatives are open-source.",
+        "The article does not provide funding stage information for any of the 6 companies (Mixpanel, Amplitude, Fullstory, Heap, Google Analytics, LogRocket), so stage cannot be determined from this source.",
+        "Google Analytics (GA4) is primarily a web analytics and marketing attribution tool rather than a dedicated product analytics platform, making it a less direct comparison to PostHog than the other 5 companies.",
+        "Fullstory and LogRocket lean more toward qualitative insights, session replay, and debugging than comprehensive product analytics, making them partial fits compared to PostHog's quantitative and developer-focused approach.",
+        "Exact supporting quote unavailable for Mixpanel",
+        "Exact supporting quote unavailable for Amplitude",
+        "Exact supporting quote unavailable for Fullstory",
+        "Exact supporting quote unavailable for Heap (by ContentSquare)",
+        "Exact supporting quote unavailable for Google Analytics (GA4)",
+        "Exact supporting quote unavailable for LogRocket",
+        "The company list on technologychecker.io is sorted by LinkedIn following (largest organizations first), but the task criteria specify Developer tools companies. Most listed companies are NOT in Software Development or Developer tools category - they are healthcare, retail, banking, education, government, etc. Only ~10 of 50 companies listed are in Software Development or Technology, Information and Internet categories.",
+        "Many PostHog detections occur on non-core subdomains (careers sites, conference sites, documentation portals, trust/compliance pages, course catalogs) rather than on primary product domains. These may not represent the companies' core product analytics needs.",
+        "The page explicitly states: 'a detection may be one storefront rather than a company-wide deployment' - meaning PostHog usage detected does not necessarily indicate a B2B open-source product analytics platform deployment on their main product.",
+        "Funding stages are listed as 'Public Company', 'Privately Held', 'Self-Owned', 'Government Agency', 'Educational', 'Nonprofit' rather than traditional VC funding stages (Seed, Series A, etc.). The ICP allows 'Any' funding stage, so this does not disqualify any company.",
+        "Agencies and consulting businesses are explicitly excluded per ICP. Virtusa Corporation (IT Services and IT Consulting) is a consulting business and should be excluded.",
+        "The page contains 50 visible companies total. Of these, only PostHog itself, HubSpot, MongoDB, Railway, Veeam, Xero, Cvent (Software Development companies) and Outlier AI, Varsity Tutors, Nova Talent (Technology/Internet) clearly fit the B2B Developer tools / Product Analytics ICP. The remaining 35+ companies are healthcare, retail, banking, education, government, defense, manufacturing - none match the 'B2B open-source product analytics software platforms' criterion.",
+        "No pagination or 'show more' beyond the 50 visible companies is available without login. The site mentions 139,813 total domains but only 75,665 matched to company records. Cannot access the full dataset without authentication.",
+        "Amplitude, Pendo, LogRocket, Mixpanel, Userpilot, and Glassbox are excluded as they are not open-source (the criteria explicitly asks for B2B open-source product analytics software platforms).",
+        "The G2 article only lists 7 companies in its top shortlist; the original G2 Grid Report referenced a list of 40+ tools, and additional open-source or developer-focused product analytics platforms (e.g., Matomo, Plausible Analytics, Umami) are not covered in this source.",
+        "Exact supporting quote unavailable for PostHog",
+        "7 additional source domains remain outside this run's 8-source browser budget. This is planned coverage, not the entire market.",
+        "None of the 6 companies listed are explicitly described as open-source in the article, unlike PostHog which is emphasized as open-source. The criteria mentions 'B2B open-source product analytics software platforms' — none of these alternatives are open-source.",
+        "The article does not provide funding stage information for any of the 6 companies (Mixpanel, Amplitude, Fullstory, Heap, Google Analytics, LogRocket), so stage cannot be determined from this source.",
+        "Google Analytics (GA4) is primarily a web analytics and marketing attribution tool rather than a dedicated product analytics platform, making it a less direct comparison to PostHog than the other 5 companies.",
+        "Fullstory and LogRocket lean more toward qualitative insights, session replay, and debugging than comprehensive product analytics, making them partial fits compared to PostHog's quantitative and developer-focused approach.",
+        "Exact supporting quote unavailable for Mixpanel",
+        "Company-owned product evidence still required for Amplitude; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Fullstory; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Heap (by ContentSquare); directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Google Analytics (GA4); directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for LogRocket; directory membership is not proof of ICP fit.",
+        "The company list on technologychecker.io is sorted by LinkedIn following (largest organizations first), but the task criteria specify Developer tools companies. Most listed companies are NOT in Software Development or Developer tools category - they are healthcare, retail, banking, education, government, etc. Only ~10 of 50 companies listed are in Software Development or Technology, Information and Internet categories.",
+        "Many PostHog detections occur on non-core subdomains (careers sites, conference sites, documentation portals, trust/compliance pages, course catalogs) rather than on primary product domains. These may not represent the companies' core product analytics needs.",
+        "The page explicitly states: 'a detection may be one storefront rather than a company-wide deployment' - meaning PostHog usage detected does not necessarily indicate a B2B open-source product analytics platform deployment on their main product.",
+        "Funding stages are listed as 'Public Company', 'Privately Held', 'Self-Owned', 'Government Agency', 'Educational', 'Nonprofit' rather than traditional VC funding stages (Seed, Series A, etc.). The ICP allows 'Any' funding stage, so this does not disqualify any company.",
+        "Agencies and consulting businesses are explicitly excluded per ICP. Virtusa Corporation (IT Services and IT Consulting) is a consulting business and should be excluded.",
+        "The page contains 50 visible companies total. Of these, only PostHog itself, HubSpot, MongoDB, Railway, Veeam, Xero, Cvent (Software Development companies) and Outlier AI, Varsity Tutors, Nova Talent (Technology/Internet) clearly fit the B2B Developer tools / Product Analytics ICP. The remaining 35+ companies are healthcare, retail, banking, education, government, defense, manufacturing - none match the 'B2B open-source product analytics software platforms' criterion.",
+        "No pagination or 'show more' beyond the 50 visible companies is available without login. The site mentions 139,813 total domains but only 75,665 matched to company records. Cannot access the full dataset without authentication.",
+        "Company-owned product evidence still required for PostHog; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for HubSpot, Inc.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for MongoDB; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Railway Corp.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Veeam Software; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Xero; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Cvent; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Deel, Inc.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Outlier AI, Inc.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Nova Talent AB; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Varsity Tutors LLC; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Remote Technology, Inc.; directory membership is not proof of ICP fit.",
+        "Amplitude, Pendo, LogRocket, Mixpanel, Userpilot, and Glassbox are excluded as they are not open-source (the criteria explicitly asks for B2B open-source product analytics software platforms).",
+        "The G2 article only lists 7 companies in its top shortlist; the original G2 Grid Report referenced a list of 40+ tools, and additional open-source or developer-focused product analytics platforms (e.g., Matomo, Plausible Analytics, Umami) are not covered in this source.",
+        "Company-owned product evidence still required for PostHog; directory membership is not proof of ICP fit.",
+        "Funding stage information for PostHog is not available on this source page. The article does not mention PostHog's funding history or current stage.",
+        "This source is a single blog post by a data analytics agency (Vision Labs). It focuses exclusively on PostHog as a product tutorial. No comparable B2B open-source product analytics companies (beyond PostHog itself) are listed or reviewed.",
+        "Google Analytics (GA4) is mentioned for comparison but is not open-source and is not a product analytics platform (it is a web analytics tool by Google), so it does not qualify.",
+        "No other open-source product analytics competitors or alternatives are discussed in this source, so coverage is limited to PostHog alone.",
+        "Company-owned product evidence still required for PostHog; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Microsoft Clarity; directory membership is not proof of ICP fit.",
+        "7 additional source domains remain outside this run's 8-source browser budget. This is planned coverage, not the entire market.",
+        "None of the 6 companies listed are explicitly described as open-source in the article, unlike PostHog which is emphasized as open-source. The criteria mentions 'B2B open-source product analytics software platforms' — none of these alternatives are open-source.",
+        "The article does not provide funding stage information for any of the 6 companies (Mixpanel, Amplitude, Fullstory, Heap, Google Analytics, LogRocket), so stage cannot be determined from this source.",
+        "Google Analytics (GA4) is primarily a web analytics and marketing attribution tool rather than a dedicated product analytics platform, making it a less direct comparison to PostHog than the other 5 companies.",
+        "Fullstory and LogRocket lean more toward qualitative insights, session replay, and debugging than comprehensive product analytics, making them partial fits compared to PostHog's quantitative and developer-focused approach.",
+        "Exact supporting quote unavailable for Mixpanel",
+        "Company-owned product evidence still required for Amplitude; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Fullstory; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Heap (by ContentSquare); directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Google Analytics (GA4); directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for LogRocket; directory membership is not proof of ICP fit.",
+        "The company list on technologychecker.io is sorted by LinkedIn following (largest organizations first), but the task criteria specify Developer tools companies. Most listed companies are NOT in Software Development or Developer tools category - they are healthcare, retail, banking, education, government, etc. Only ~10 of 50 companies listed are in Software Development or Technology, Information and Internet categories.",
+        "Many PostHog detections occur on non-core subdomains (careers sites, conference sites, documentation portals, trust/compliance pages, course catalogs) rather than on primary product domains. These may not represent the companies' core product analytics needs.",
+        "The page explicitly states: 'a detection may be one storefront rather than a company-wide deployment' - meaning PostHog usage detected does not necessarily indicate a B2B open-source product analytics platform deployment on their main product.",
+        "Funding stages are listed as 'Public Company', 'Privately Held', 'Self-Owned', 'Government Agency', 'Educational', 'Nonprofit' rather than traditional VC funding stages (Seed, Series A, etc.). The ICP allows 'Any' funding stage, so this does not disqualify any company.",
+        "Agencies and consulting businesses are explicitly excluded per ICP. Virtusa Corporation (IT Services and IT Consulting) is a consulting business and should be excluded.",
+        "The page contains 50 visible companies total. Of these, only PostHog itself, HubSpot, MongoDB, Railway, Veeam, Xero, Cvent (Software Development companies) and Outlier AI, Varsity Tutors, Nova Talent (Technology/Internet) clearly fit the B2B Developer tools / Product Analytics ICP. The remaining 35+ companies are healthcare, retail, banking, education, government, defense, manufacturing - none match the 'B2B open-source product analytics software platforms' criterion.",
+        "No pagination or 'show more' beyond the 50 visible companies is available without login. The site mentions 139,813 total domains but only 75,665 matched to company records. Cannot access the full dataset without authentication.",
+        "Company-owned product evidence still required for PostHog; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for HubSpot, Inc.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for MongoDB; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Railway Corp.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Veeam Software; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Xero; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Cvent; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Deel, Inc.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Outlier AI, Inc.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Nova Talent AB; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Varsity Tutors LLC; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Remote Technology, Inc.; directory membership is not proof of ICP fit.",
+        "Amplitude, Pendo, LogRocket, Mixpanel, Userpilot, and Glassbox are excluded as they are not open-source (the criteria explicitly asks for B2B open-source product analytics software platforms).",
+        "The G2 article only lists 7 companies in its top shortlist; the original G2 Grid Report referenced a list of 40+ tools, and additional open-source or developer-focused product analytics platforms (e.g., Matomo, Plausible Analytics, Umami) are not covered in this source.",
+        "Company-owned product evidence still required for PostHog; directory membership is not proof of ICP fit.",
+        "Funding stage information for PostHog is not available on this source page. The article does not mention PostHog's funding history or current stage.",
+        "This source is a single blog post by a data analytics agency (Vision Labs). It focuses exclusively on PostHog as a product tutorial. No comparable B2B open-source product analytics companies (beyond PostHog itself) are listed or reviewed.",
+        "Google Analytics (GA4) is mentioned for comparison but is not open-source and is not a product analytics platform (it is a web analytics tool by Google), so it does not qualify.",
+        "No other open-source product analytics competitors or alternatives are discussed in this source, so coverage is limited to PostHog alone.",
+        "Company-owned product evidence still required for PostHog; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Microsoft Clarity; directory membership is not proof of ICP fit.",
+        "Amplitude, Mixpanel, and Google Analytics (GA4) do NOT meet the 'open-source' criteria - they are proprietary SaaS platforms and excluded.",
+        "The article does not provide funding stage information for any of the four companies (PostHog, Amplitude, Mixpanel, Google Analytics).",
+        "PostHog's official product pages (posthog.com/product-analytics, posthog.com/pricing) could not be accessed due to network errors, so direct product page evidence is based on the Monterail article's description rather than a direct company-owned product page visit.",
+        "No other open-source product analytics platforms are mentioned in this source beyond PostHog.",
+        "Exact supporting quote unavailable for PostHog",
+        "7 additional source domains remain outside this run's 8-source browser budget. This is planned coverage, not the entire market.",
+        "None of the 6 companies listed are explicitly described as open-source in the article, unlike PostHog which is emphasized as open-source. The criteria mentions 'B2B open-source product analytics software platforms' — none of these alternatives are open-source.",
+        "The article does not provide funding stage information for any of the 6 companies (Mixpanel, Amplitude, Fullstory, Heap, Google Analytics, LogRocket), so stage cannot be determined from this source.",
+        "Google Analytics (GA4) is primarily a web analytics and marketing attribution tool rather than a dedicated product analytics platform, making it a less direct comparison to PostHog than the other 5 companies.",
+        "Fullstory and LogRocket lean more toward qualitative insights, session replay, and debugging than comprehensive product analytics, making them partial fits compared to PostHog's quantitative and developer-focused approach.",
+        "Exact supporting quote unavailable for Mixpanel",
+        "Company-owned product evidence still required for Amplitude; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Fullstory; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Heap (by ContentSquare); directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Google Analytics (GA4); directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for LogRocket; directory membership is not proof of ICP fit.",
+        "The company list on technologychecker.io is sorted by LinkedIn following (largest organizations first), but the task criteria specify Developer tools companies. Most listed companies are NOT in Software Development or Developer tools category - they are healthcare, retail, banking, education, government, etc. Only ~10 of 50 companies listed are in Software Development or Technology, Information and Internet categories.",
+        "Many PostHog detections occur on non-core subdomains (careers sites, conference sites, documentation portals, trust/compliance pages, course catalogs) rather than on primary product domains. These may not represent the companies' core product analytics needs.",
+        "The page explicitly states: 'a detection may be one storefront rather than a company-wide deployment' - meaning PostHog usage detected does not necessarily indicate a B2B open-source product analytics platform deployment on their main product.",
+        "Funding stages are listed as 'Public Company', 'Privately Held', 'Self-Owned', 'Government Agency', 'Educational', 'Nonprofit' rather than traditional VC funding stages (Seed, Series A, etc.). The ICP allows 'Any' funding stage, so this does not disqualify any company.",
+        "Agencies and consulting businesses are explicitly excluded per ICP. Virtusa Corporation (IT Services and IT Consulting) is a consulting business and should be excluded.",
+        "The page contains 50 visible companies total. Of these, only PostHog itself, HubSpot, MongoDB, Railway, Veeam, Xero, Cvent (Software Development companies) and Outlier AI, Varsity Tutors, Nova Talent (Technology/Internet) clearly fit the B2B Developer tools / Product Analytics ICP. The remaining 35+ companies are healthcare, retail, banking, education, government, defense, manufacturing - none match the 'B2B open-source product analytics software platforms' criterion.",
+        "No pagination or 'show more' beyond the 50 visible companies is available without login. The site mentions 139,813 total domains but only 75,665 matched to company records. Cannot access the full dataset without authentication.",
+        "Company-owned product evidence still required for PostHog; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for HubSpot, Inc.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for MongoDB; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Railway Corp.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Veeam Software; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Xero; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Cvent; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Deel, Inc.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Outlier AI, Inc.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Nova Talent AB; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Varsity Tutors LLC; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Remote Technology, Inc.; directory membership is not proof of ICP fit.",
+        "Amplitude, Pendo, LogRocket, Mixpanel, Userpilot, and Glassbox are excluded as they are not open-source (the criteria explicitly asks for B2B open-source product analytics software platforms).",
+        "The G2 article only lists 7 companies in its top shortlist; the original G2 Grid Report referenced a list of 40+ tools, and additional open-source or developer-focused product analytics platforms (e.g., Matomo, Plausible Analytics, Umami) are not covered in this source.",
+        "Company-owned product evidence still required for PostHog; directory membership is not proof of ICP fit.",
+        "Funding stage information for PostHog is not available on this source page. The article does not mention PostHog's funding history or current stage.",
+        "This source is a single blog post by a data analytics agency (Vision Labs). It focuses exclusively on PostHog as a product tutorial. No comparable B2B open-source product analytics companies (beyond PostHog itself) are listed or reviewed.",
+        "Google Analytics (GA4) is mentioned for comparison but is not open-source and is not a product analytics platform (it is a web analytics tool by Google), so it does not qualify.",
+        "No other open-source product analytics competitors or alternatives are discussed in this source, so coverage is limited to PostHog alone.",
+        "Company-owned product evidence still required for PostHog; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Microsoft Clarity; directory membership is not proof of ICP fit.",
+        "Amplitude, Mixpanel, and Google Analytics (GA4) do NOT meet the 'open-source' criteria - they are proprietary SaaS platforms and excluded.",
+        "The article does not provide funding stage information for any of the four companies (PostHog, Amplitude, Mixpanel, Google Analytics).",
+        "PostHog's official product pages (posthog.com/product-analytics, posthog.com/pricing) could not be accessed due to network errors, so direct product page evidence is based on the Monterail article's description rather than a direct company-owned product page visit.",
+        "No other open-source product analytics platforms are mentioned in this source beyond PostHog.",
+        "Exact supporting quote unavailable for PostHog",
+        "7 additional source domains remain outside this run's 8-source browser budget. This is planned coverage, not the entire market.",
+        "None of the 6 companies listed are explicitly described as open-source in the article, unlike PostHog which is emphasized as open-source. The criteria mentions 'B2B open-source product analytics software platforms' — none of these alternatives are open-source.",
+        "The article does not provide funding stage information for any of the 6 companies (Mixpanel, Amplitude, Fullstory, Heap, Google Analytics, LogRocket), so stage cannot be determined from this source.",
+        "Google Analytics (GA4) is primarily a web analytics and marketing attribution tool rather than a dedicated product analytics platform, making it a less direct comparison to PostHog than the other 5 companies.",
+        "Fullstory and LogRocket lean more toward qualitative insights, session replay, and debugging than comprehensive product analytics, making them partial fits compared to PostHog's quantitative and developer-focused approach.",
+        "Exact supporting quote unavailable for Mixpanel",
+        "Company-owned product evidence still required for Amplitude; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Fullstory; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Heap (by ContentSquare); directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Google Analytics (GA4); directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for LogRocket; directory membership is not proof of ICP fit.",
+        "The company list on technologychecker.io is sorted by LinkedIn following (largest organizations first), but the task criteria specify Developer tools companies. Most listed companies are NOT in Software Development or Developer tools category - they are healthcare, retail, banking, education, government, etc. Only ~10 of 50 companies listed are in Software Development or Technology, Information and Internet categories.",
+        "Many PostHog detections occur on non-core subdomains (careers sites, conference sites, documentation portals, trust/compliance pages, course catalogs) rather than on primary product domains. These may not represent the companies' core product analytics needs.",
+        "The page explicitly states: 'a detection may be one storefront rather than a company-wide deployment' - meaning PostHog usage detected does not necessarily indicate a B2B open-source product analytics platform deployment on their main product.",
+        "Funding stages are listed as 'Public Company', 'Privately Held', 'Self-Owned', 'Government Agency', 'Educational', 'Nonprofit' rather than traditional VC funding stages (Seed, Series A, etc.). The ICP allows 'Any' funding stage, so this does not disqualify any company.",
+        "Agencies and consulting businesses are explicitly excluded per ICP. Virtusa Corporation (IT Services and IT Consulting) is a consulting business and should be excluded.",
+        "The page contains 50 visible companies total. Of these, only PostHog itself, HubSpot, MongoDB, Railway, Veeam, Xero, Cvent (Software Development companies) and Outlier AI, Varsity Tutors, Nova Talent (Technology/Internet) clearly fit the B2B Developer tools / Product Analytics ICP. The remaining 35+ companies are healthcare, retail, banking, education, government, defense, manufacturing - none match the 'B2B open-source product analytics software platforms' criterion.",
+        "No pagination or 'show more' beyond the 50 visible companies is available without login. The site mentions 139,813 total domains but only 75,665 matched to company records. Cannot access the full dataset without authentication.",
+        "Company-owned product evidence still required for PostHog; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for HubSpot, Inc.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for MongoDB; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Railway Corp.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Veeam Software; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Xero; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Cvent; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Deel, Inc.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Outlier AI, Inc.; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Nova Talent AB; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Varsity Tutors LLC; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Remote Technology, Inc.; directory membership is not proof of ICP fit.",
+        "Amplitude, Pendo, LogRocket, Mixpanel, Userpilot, and Glassbox are excluded as they are not open-source (the criteria explicitly asks for B2B open-source product analytics software platforms).",
+        "The G2 article only lists 7 companies in its top shortlist; the original G2 Grid Report referenced a list of 40+ tools, and additional open-source or developer-focused product analytics platforms (e.g., Matomo, Plausible Analytics, Umami) are not covered in this source.",
+        "Company-owned product evidence still required for PostHog; directory membership is not proof of ICP fit.",
+        "Amplitude, Mixpanel, and Google Analytics (GA4) do NOT meet the 'open-source' criteria - they are proprietary SaaS platforms and excluded.",
+        "The article does not provide funding stage information for any of the four companies (PostHog, Amplitude, Mixpanel, Google Analytics).",
+        "PostHog's official product pages (posthog.com/product-analytics, posthog.com/pricing) could not be accessed due to network errors, so direct product page evidence is based on the Monterail article's description rather than a direct company-owned product page visit.",
+        "No other open-source product analytics platforms are mentioned in this source beyond PostHog.",
+        "Exact supporting quote unavailable for PostHog",
+        "No funding stage information available for any of the 5 vendors in this source (unknown stages cannot satisfy specific stage restrictions)",
+        "No information available about whether these companies are agencies or consulting businesses beyond article descriptions — all are described as product vendors",
+        "The article is from OpenPanel (a vendor), so all products described are analytics vendors (not customers), which is appropriate for this source",
+        "No pagination or additional pages found beyond this single comparison article on the site",
+        "Exact supporting quote unavailable for OpenPanel",
+        "Company-owned product evidence still required for PostHog; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Countly; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Matomo; directory membership is not proof of ICP fit.",
+        "Company-owned product evidence still required for Mitzu; directory membership is not proof of ICP fit.",
+        "Snowplow is a Behavioral Data Platform / data infrastructure product, not a product analytics platform. The Snowplow Digital Analytics Data Model Pack is a data modeling solution built on top of the Snowplow BDP for use with customer-owned data warehouses, not a self-contained product analytics SaaS.",
+        "Countly is described as a digital analytics and customer experience platform (web, mobile, desktop analytics) and is explicitly positioned against Google Analytics and Mixpanel. While it has a product analytics page (countly.com/product-analytics), the article categorizes it as 'product analytics' and it offers mobile/web/desktop analytics with an open-source version. Countly may qualify but its 'product analytics' is more closely aligned with digital analytics.",
+        "PostHog is explicitly categorized in the article as an 'open source product analytics' platform and is self-hosted. However, I could not access posthog.com due to network errors, so I cannot verify current product details, open-source status, and B2B positioning from the company-owned product page as required.",
+        "Wasabi is an A/B testing platform, not product analytics. Additionally, the article states it has not been under active development since August 2019.",
+        "Grouparoo and Pimcore are CDP/Reverse ETL and digital data management platforms respectively, not product analytics platforms.",
+        "Great Expectations is a data validation tool, not a product analytics platform.",
+        "dbt is an analytics engineering/transformation tool, not a product analytics platform.",
+        "Hastic is an anomaly detection tool for Grafana, not a product analytics platform.",
+        "Apache Druid and Timescale are databases, not product analytics platforms.",
+        "Superset, Metabase, and Redash are data visualization/dashboarding tools, not product analytics platforms.",
+        "https://userpilot.com/blog/product-analytics-tools/: Agent FAILED",
+        "The source mentions several companies (Metabase, Matomo, PostHog, Umami, Plausible, Grafana, Redash, Apache Superset) but does not provide their official product URLs directly in the page content or navigation elements. Without being able to visit company-owned product pages, it is not possible to verify whether each company's actual product supports all required ICP constraints (B2B open-source product analytics software platforms). Additionally, the source does not provide funding stage inform",
+        "Metabase is primarily a Business Intelligence platform, not product analytics.",
+        "Matomo is primarily a Website/Marketing Analytics platform, not product analytics.",
+        "PostHog is described as a Product & User Behavior Analytics platform, but its official product page could not be accessed from the source to verify the ICP constraints.",
+        "Umami and Plausible are described as Website Analytics platforms, not product analytics.",
+        "Grafana is an Observability/Monitoring platform, not product analytics.",
+        "The source lists these as use cases and tools rather than verified company profiles with funding data."
+      ],
+      "agentRuns": {
+        "company-posthog.com": "ff586c5e-e266-4a86-a125-173fe8517df4",
+        "company-mixpanel.com": "fcec1f23-1abb-4caf-ba5b-d36de3378cd6",
+        "company-technologychecker.io": "0160a74c-ce50-4391-85b3-e8662ee8b460",
+        "company-g2.com": "b0a697e3-35b3-4d60-b6a7-3e8fe4e31407",
+        "company-visionlabs.com": "62818d8f-ae00-4d8a-9d1b-fde2d9108382",
+        "company-monterail.com": "a502465d-6da2-45d8-a0d0-128f5e5641ea",
+        "company-snowplow.io": "83eb8234-e676-4404-a741-d2183e663b3e",
+        "company-openpanel.dev": "11d83917-43ea-4e48-8fb2-6c5ebf9cba52",
+        "company-userpilot.com": "8b7a1f14-cd31-43a2-8cac-b6ac97ff5972",
+        "company-addepto.com": "9cf608ea-898e-4bd1-b872-8de0a274e0b7"
+      }
+    },
+    {
+      "type": "contacts",
+      "status": "partial",
+      "message": "Finished",
+      "queriesCompleted": [],
+      "coverageGaps": [
+        "PostHog: Ben Smith (https://posthog.com/community/profiles/35123) is listed on the Customer Success EU team page but was not in the candidate list.",
+        "PostHog: Person at https://posthog.com/community/profiles/28895 is listed on the Customer Success EU team page but was not in the candidate list.",
+        "PostHog: Tim Glaser's contact URL (Twitter/X) was not provided in the candidate list — bio does not mention a social handle.",
+        "PostHog: James Hawkins's X handle confirmed as https://x.com/james406 (page shows https://twitter.com/james406).",
+        "PostHog: No product marketing team page or product marketing personnel were found in publicly accessible areas of the PostHog website. No Product Marketing Manager or similar role could be identified.",
+        "PostHog: The Customer Success NA-West and NA-North team pages returned empty or cookie-banner-only content, so current NA Customer Success team members could not be verified from public pages (though an open requisition for TCSM EMEA was found).",
+        "PostHog: Charles Cook is listed as 'Generic Exec Person' overseeing marketing, brand & demand gen, and was previously first ops person scaling sales & support orgs - partial CS-adjacent responsibility but title does not match target roles.",
+        "PostHog: No Product Marketing personnel were found despite checking the marketing team handbook page (https://posthog.com/handbook/marketing) and all available team pages.",
+        "PostHog: The task explicitly says not to infer names from open vacancies (the TCSM EMEA open job was found but should not be included as it's a vacancy, not a current hire)."
+      ],
+      "agentRuns": {
+        "contacts-a1763428-0eaa-4746-ae40-0b8c913a52be": "acbd61a7-0867-4490-b252-a538b2c014b6",
+        "contacts-verify-a1763428-0eaa-4746-ae40-0b8c913a52be": "2da6215b-a0d4-49b1-a835-d1053fe3b35c"
+      }
+    },
+    {
+      "type": "monitor",
+      "status": "partial",
+      "message": "Finished",
+      "queriesCompleted": [],
+      "coverageGaps": [
+        "Email broadcasts feature launched in Workflows: Exact event quote not verified",
+        "19 new MCP tools released including AI observability, Today, Workflows, Visual review, Signals, and Replay vision tools: Exact event quote not verified",
+        "HogQL-model batch exports launched in closed beta: Exact event quote not verified",
+        "16 new MCP tools added including billing, experiments, and data quality tools: Exact event quote not verified",
+        "Eight warehouse sources reached general availability: WorkOS, Notion, Recharge, Gorgias, Calendly, Brevo, ActiveCampaign, Mailjet, WooCommerce: Exact event quote not verified",
+        "12 additional Data Warehouse sources moved from prerelease to general availability: Close, App Store Connect, Webflow, Pipedrive, Freshdesk, MailerLite, Eventbrite, ChartMogul, Postmark, Apollo, Cloudflare, SendGrid: Exact event quote not verified",
+        "OpenAI Ads source entered beta for Data Warehouse: Exact event quote not verified",
+        "Anthropic source entered beta for Data Warehouse: Exact event quote not verified",
+        "Backfill LLM evaluations launched for AI Observability: Exact event quote not verified",
+        "Scouts launched as a dedicated Self-driving product: Exact event quote not verified",
+        "AI observability for Google ADK agents launched: Exact event quote not verified",
+        "Gainsight CS data sync launched for Data Warehouse: Exact event quote not verified",
+        "More warehouse sources graduated to production: Exact event quote not verified",
+        "Push notification open capture improved for mobile apps: Exact event quote not verified",
+        "No funding events were found in the changelog or finance handbook during the target period. PostHog stated in their handbook they have 'never had to fundraise' and aim to be 'default alive' — no recent funding rounds were announced.",
+        "No target-role hires were found. The 'joined us' page returned no data, and the onboarding handbook did not list recently hired individuals. The careers page lists open vacancies (Technical Customer Success Managers for NA and EMEA, Product Manager, etc.) but these are unfilled positions, not actual hires.",
+        "The finance handbook describes PostHog's fundraising principles ('Rule #1: Never have to fundraise') but contains no specific funding announcements or rounds during Sep 11 – Oct 11, 2026.",
+        "No leadership changes for Founder/CEO, Product Marketing, or Customer Success roles were announced during the period. James Hawkins and Tim Glaser remain Co-CEOs (as of the About page).",
+        "The changelog does not distinguish between the publication date of a changelog entry and the actual event date. Where entries appear to be bundled by release cycle, the changelog date should be treated as the event date.",
+        "Blog posts and newsletter articles on posthog.com/blog and posthog.com/newsletter were not systematically crawled during this session, so coverage of product announcements or company events that appeared only in blog posts (not changelog) may be incomplete."
+      ],
+      "agentRuns": {
+        "events-a1763428-0eaa-4746-ae40-0b8c913a52be": "e6b94b29-934e-4d8e-a7a8-d8752826f780"
+      }
+    }
+  ],
+  "events": [
+    {
+      "type": "product",
+      "summary": "Push notifications launched in Workflows for iOS and Android",
+      "evidence": "You can now send push notifications to iOS and Android apps from a workflow step. Connect a Firebase Cloud Messaging or APNs channel",
+      "priority": 3,
+      "sourceUrl": "https://posthog.com/changelog.md",
+      "occurredAt": "2026-10-08",
+      "relevanceReason": "Major new notification channel integration enabling push notifications from workflows with Firebase and APNs",
+      "id": "333c827e-82e5-4f5a-838b-964d2875370c",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "dedupeKey": "c651c2bf582810b994df6bb448a2b232a4974d0f627f8307ef2c1870f125ec57",
+      "matchesCriteria": true,
+      "status": "new",
+      "detectedAt": "2026-10-11T22:27:09.933Z",
+      "sources": [
+        {
+          "url": "https://posthog.com/changelog.md",
+          "excerpt": "You can now send push notifications to iOS and Android apps from a workflow step. Connect a Firebase Cloud Messaging or APNs channel",
+          "checkedAt": "2026-10-11T22:27:09.932Z"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "summary": "Self-driving inbox redesigned with three-tab layout, report triage improvements, and right-click actions",
+      "evidence": "The redesigned Self-driving inbox has become much easier to work through, with a simpler setup flow and less back-and-forth for report triage",
+      "priority": 3,
+      "sourceUrl": "https://posthog.com/changelog.md",
+      "occurredAt": "2026-09-10",
+      "relevanceReason": "Significant UX overhaul of the Self-driving inbox, a core product feature",
+      "id": "d368a3b5-7981-4dbc-9a88-99b6b5cab904",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "dedupeKey": "7f0475c8d5955a9fcdd24ccadb34bd8ef35bbc7ebddde3a4e6e931c5a47747d6",
+      "matchesCriteria": true,
+      "status": "new",
+      "detectedAt": "2026-10-11T22:27:09.933Z",
+      "sources": [
+        {
+          "url": "https://posthog.com/changelog.md",
+          "excerpt": "The redesigned Self-driving inbox has become much easier to work through, with a simpler setup flow and less back-and-forth for report triage",
+          "checkedAt": "2026-10-11T22:27:09.933Z"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "summary": "Self-driving inbox redesign with three-tab layout and report triage improvements",
+      "evidence": "The redesigned Self-driving inbox has become much easier to work through",
+      "priority": 3,
+      "sourceUrl": "https://posthog.com/changelog.md",
+      "occurredAt": "2026-09-03",
+      "relevanceReason": "Significant UX overhaul of the Self-driving inbox",
+      "id": "726c1c4b-d262-4e15-b904-7cc0edfe6e86",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "dedupeKey": "f82fa9cc0f24f8a5974ceea3010824a76015b67475d192dab2e8d7cc77fe66f3",
+      "matchesCriteria": true,
+      "status": "new",
+      "detectedAt": "2026-10-11T22:27:09.933Z",
+      "sources": [
+        {
+          "url": "https://posthog.com/changelog.md",
+          "excerpt": "The redesigned Self-driving inbox has become much easier to work through",
+          "checkedAt": "2026-10-11T22:27:09.933Z"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "summary": "Gmail duplicate prevention implemented",
+      "evidence": "PostHog treats dotted Gmail addresses and googlemail.com as the same mailbox, closing a way to create duplicate active accounts",
+      "priority": 3,
+      "sourceUrl": "https://posthog.com/changelog.md",
+      "occurredAt": "2026-10-02",
+      "relevanceReason": "Security/UX fix closing a duplicate account creation vector via Gmail address variations",
+      "id": "3f44012e-f321-45bf-a1e5-5c2195bff9a6",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "dedupeKey": "21a46ed1ebbfca1eb3d2e6b4c04dc9fd100a43d1f2169668b06fcb94ceef4757",
+      "matchesCriteria": true,
+      "status": "new",
+      "detectedAt": "2026-10-11T22:27:09.933Z",
+      "sources": [
+        {
+          "url": "https://posthog.com/changelog.md",
+          "excerpt": "PostHog treats dotted Gmail addresses and googlemail.com as the same mailbox, closing a way to create duplicate active accounts",
+          "checkedAt": "2026-10-11T22:27:09.933Z"
+        }
+      ]
+    },
+    {
+      "type": "product",
+      "summary": "MCP analytics launched by default with model information capture",
+      "evidence": "MCP instrumentation now captures model information and keeps related tool calls in the same conversation by default",
+      "priority": 3,
+      "sourceUrl": "https://posthog.com/changelog.md",
+      "occurredAt": "2026-09-25",
+      "relevanceReason": "Default behavior change for MCP instrumentation, capturing model info and grouping tool calls",
+      "id": "1f154e00-cc60-44b5-92bf-47d8e06d5769",
+      "companyId": "a1763428-0eaa-4746-ae40-0b8c913a52be",
+      "dedupeKey": "fc99360cbd02fc5a1f7a93bea2d85781bc04f4ccb99a66fd443447236960972e",
+      "matchesCriteria": true,
+      "status": "new",
+      "detectedAt": "2026-10-11T22:27:09.933Z",
+      "sources": [
+        {
+          "url": "https://posthog.com/changelog.md",
+          "excerpt": "MCP instrumentation now captures model information and keeps related tool calls in the same conversation by default",
+          "checkedAt": "2026-10-11T22:27:09.933Z"
+        }
+      ]
+    }
+  ]
+}

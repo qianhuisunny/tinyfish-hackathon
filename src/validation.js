@@ -148,3 +148,17 @@ export function validateResearch(kind, value) {
 export function companyOwnedEvidence(company){
   try{return domain(company.domain)===domain(company.sourceUrl)}catch{return false}
 }
+
+// Reject a browser-assigned date when the nearest explicit source date contradicts it.
+// This is a contradiction check, not proof that publication and occurrence coincide.
+export function eventDateAgrees(page, evidence, occurredAt) {
+  if (!occurredAt) return true;
+  const normalized = page.toLowerCase().replace(/\s+/g, ' ');
+  const position = normalized.indexOf(evidence.toLowerCase().replace(/\s+/g, ' '));
+  if (position < 0) return false;
+  const preceding = normalized.slice(Math.max(0, position - 800), position);
+  const dates = [...preceding.matchAll(/(?<![a-z])(?:january|february|march|april|may|june|july|august|september|october|november|december) \d{1,2},? \d{4}\b/g)];
+  if (!dates.length) return true;
+  const parsed = Date.parse(dates.at(-1)[0] + ' UTC');
+  return !Number.isFinite(parsed) || new Date(parsed).toISOString().slice(0,10) === occurredAt.slice(0,10);
+}
