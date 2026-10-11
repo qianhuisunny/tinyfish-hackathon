@@ -54,7 +54,7 @@ test("Fetch retains partial HTTP 200 errors", async () => {
         }),
       ),
   });
-  const r = await t.fetchPages(["https://example.com"]);
+  const r = await t.fetchPages(["https://9.9.9.9"]);
   assert.equal(r.results.length, 1);
   assert.equal(r.errors.length, 1);
 });
@@ -76,4 +76,21 @@ test("rate limits have bounded retries and failed Agent runs stay failures", asy
       new Response(JSON.stringify({ status: "FAILED", error: "blocked" })),
   });
   await assert.rejects(f.waitAgent("test-id"), /FAILED/);
+});
+
+test("provider boundary rejects private Fetch and Agent targets before network calls", async () => {
+  const t = new TinyFish({
+    key: "test",
+    fetcher: async () => {
+      throw Error("Network should not be reached");
+    },
+  });
+  await assert.rejects(
+    t.fetchPages(["http://127.0.0.1/admin"]),
+    /Private network|public/,
+  );
+  await assert.rejects(
+    t.startAgent({ url: "http://10.0.0.1", goal: "read" }),
+    /Private network|public/,
+  );
 });

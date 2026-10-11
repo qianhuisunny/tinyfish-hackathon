@@ -1,5 +1,7 @@
 # Founder Outreach Cloud Implementation Plan
 
+**Execution update:** The user explicitly switched to local build and test. See docs/verification.md for accepted MVP stack and scheduling changes. The original plan below is retained as design history.
+
 > **For agentic workers:** Use superpowers:executing-plans to implement this plan task-by-task. Tasks use checkbox steps for tracking.
 
 **Goal:** Replace the approved mock workflow with a runnable, evidence-backed TinyFish customer-discovery app in the cloud.

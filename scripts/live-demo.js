@@ -32,6 +32,16 @@ async function wait(job) {
   }
   throw Error("Research still running; resume in UI");
 }
+async function waitForTarget() {
+  for (let i = 0; i < 480; i++) {
+    const s = await api("state");
+    if (s.companies.some((c) => c.domain === "posthog.com")) return s;
+    const job = s.jobs.filter((j) => j.type === "discover").at(-1);
+    if (job && !["queued", "running"].includes(job.status)) return s;
+    await new Promise((r) => setTimeout(r, 5000));
+  }
+  throw Error("Target research still pending");
+}
 let s = await api("state");
 if (!s.workspace) {
   await wait(
@@ -72,8 +82,10 @@ if (!s.workspace) {
         "Be clear that this is an idea being validated, not a finished product.",
     },
   };
-  s = await wait(await api("confirm-brief", context));
+  await api("confirm-brief", context);
+  s = await waitForTarget();
 }
+if (!s.companies.length) s = await waitForTarget();
 if (!s.companies.length)
   throw Error("No verified companies; inspect discovery coverage gaps");
 if (!s.workspace.listConfirmedAt) {

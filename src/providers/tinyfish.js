@@ -1,3 +1,4 @@
+import { publicUrl } from "../validation.js";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 export class TinyFish {
   constructor({
@@ -22,6 +23,7 @@ export class TinyFish {
         signal: AbortSignal.timeout(120000),
       });
       if (response.status !== 429 && response.status < 500) break;
+      if (primitive === "Agent" && body && response.status >= 500) break;
       if (attempt < 2) await this.pause(1000 * 2 ** attempt);
     }
     if (!response.ok)
@@ -30,7 +32,9 @@ export class TinyFish {
     await this.onCall({
       primitive,
       checkedAt: new Date().toISOString(),
-      status: data.status || (primitive === "Agent" && body ? "submitted" : "completed"),
+      status:
+        data.status ||
+        (primitive === "Agent" && body ? "submitted" : "completed"),
       runId: data.run_id || null,
     });
     return data;
@@ -42,15 +46,19 @@ export class TinyFish {
     return this.request("Search", "https://api.search.tinyfish.ai?" + q);
   }
   async fetchPages(urls, opts = {}) {
+    for (const url of urls) await publicUrl(url);
     if (urls.length > 10) throw Error("Fetch batch limit is 10");
     const r = await this.request("Fetch", "https://api.fetch.tinyfish.ai", {
       urls,
       format: "markdown",
       ...opts,
     });
+    for (const page of r.results || [])
+      if (page.final_url) await publicUrl(page.final_url);
     return { results: r.results || [], errors: r.errors || [] };
   }
-  startAgent(input) {
+  async startAgent(input) {
+    await publicUrl(input.url);
     return this.request(
       "Agent",
       "https://agent.tinyfish.ai/v1/automation/run-async",

@@ -142,3 +142,5 @@ test("contact records deduplicate but retain multiple people in company", async 
   await app.addPeople("c", [{ name: "C", sources: [] }]);
   assert.equal((await store.read()).people.length, 2);
 });
+
+test('company fit cannot be established solely by a third-party customer directory',async()=>{const {companyOwnedEvidence}=await import('../src/validation.js');assert.equal(companyOwnedEvidence({domain:'acme.com',sourceUrl:'https://directory.example/customers/acme'}),false);assert.equal(companyOwnedEvidence({domain:'acme.com',sourceUrl:'https://www.acme.com/product'}),true)});

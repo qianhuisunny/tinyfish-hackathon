@@ -1,6 +1,6 @@
 # Founder Outreach — Product Requirements
 
-Approved direction, 2026-10-11. Single-user MVP; approximately one hour of implementation, with asynchronous research allowed to finish later. Implementation happens in a cloud Work task, not a local development checkout. Cloud development does not imply production hosting or an always-running service.
+Approved direction, 2026-10-11. Single-user MVP; approximately one hour of implementation, with asynchronous research allowed to finish later. The user subsequently authorized local building and testing after cloud Work did not execute. This does not imply production hosting or an always-running service.
 
 ## Product and visual reference
 Help an aspiring founder validate a startup idea by finding appropriate companies, identifying the people who own the problem, and preparing contextual outreach.

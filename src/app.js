@@ -1,5 +1,12 @@
 import { randomUUID, createHash } from "node:crypto";
-import { publicUrl, domain, brief, text, validateResearch } from "./validation.js";
+import {
+  publicUrl,
+  domain,
+  brief,
+  text,
+  validateResearch,
+  companyOwnedEvidence,
+} from "./validation.js";
 const id = () => randomUUID();
 const now = () => new Date().toISOString();
 const array = (x) => (Array.isArray(x) ? x : []);
@@ -53,6 +60,7 @@ export class App {
     this.fish = fish;
     this.options = options;
     this.running = false;
+    this.executing = new Set();
   }
   async progress(job, message) {
     if (!job) return;
@@ -92,7 +100,16 @@ export class App {
     const result = parse(await this.fish.waitAgent(runId));
     if (!result || typeof result !== "object")
       throw Error("Invalid browser result");
-    return validateResearch(key === "product" ? "product" : key.startsWith("company-") ? "companies" : key.startsWith("contacts-") ? "contacts" : "events", result);
+    return validateResearch(
+      key === "product"
+        ? "product"
+        : key.startsWith("company-")
+          ? "companies"
+          : key.startsWith("contacts-")
+            ? "contacts"
+            : "events",
+      result,
+    );
   }
   async analyze(input, job) {
     const url = await publicUrl(input.url);
@@ -265,12 +282,12 @@ export class App {
         return;
       for (const p of people) {
         if (!p.name || !array(p.sources).length) continue;
-        const key = (p.contactUrl || p.name).toLowerCase().trim();
+        const key = p.name.toLowerCase().trim().replace(/\s+/g, " ");
         if (
           s.people.some(
             (x) =>
               x.companyId === companyId &&
-              (x.contactUrl || x.name).toLowerCase().trim() === key,
+              x.name.toLowerCase().trim().replace(/\s+/g, " ") === key,
           )
         )
           continue;
@@ -362,12 +379,13 @@ export class App {
           job,
           "company-" + domain(candidate.url),
           candidate.url,
-          `Assess companies on this source against the following ideal customer criteria: ${JSON.stringify(w.icpCriteria)}. Review the source and relevant company/profile/product links within this website. A company must meet all required criteria; unknown funding stage cannot satisfy a specific stage restriction. Preferred release cadence is not required. If a directory/list, gather ALL clearly matching companies on visible pages, using filters/pagination where available; if a company site, assess that company. Do not treat consultants/news publishers as SaaS merely because they discuss SaaS. Return {companies:[{name:string,domain:string,productSummary:string,fitReason:string,stage:string|null,painHypothesis:string,sourceUrl:string,evidence:string}],coverageGaps:string[]}. sourceUrl must be a page actually visited, evidence must be a short verbatim quote supporting fit, painHypothesis must be explicitly marked Hypothesis. No invented companies. Search snippet: ${candidate.snippet || ""}. Retrieved source: ${fetched.results[0]?.text?.slice(0, 14000) || ""}`,
+          `Assess companies on this source against the following ideal customer criteria: ${JSON.stringify(w.icpCriteria)}. Review the source and relevant company/profile/product links within this website. A company must meet all required criteria; unknown funding stage cannot satisfy a specific stage restriction. Preferred release cadence is not required. If a directory/list, distinguish vendors from customers/users of another product: being a customer of an analytics tool does NOT make a company an analytics vendor. Use filters/pagination and follow official company product links; only return a company when a company-owned product page actually supports ALL required ICP constraints. If a company site, assess only that company. Do not treat consultants/news publishers as SaaS merely because they discuss SaaS. Return {companies:[{name:string,domain:string,productSummary:string,fitReason:string,stage:string|null,painHypothesis:string,sourceUrl:string,evidence:string}],coverageGaps:string[]}. sourceUrl must be a company-owned product page actually visited, evidence must be a short verbatim quote supporting the specific product category and fit, painHypothesis must be explicitly marked Hypothesis. No invented companies. Search snippet: ${candidate.snippet || ""}. Retrieved source: ${fetched.results[0]?.text?.slice(0, 14000) || ""}`,
         );
         for (const gap of array(result.coverageGaps)) await this.gap(job, gap);
         const items = [];
         for (const c of array(result.companies)) {
           if (!c.name || !c.domain || !c.evidence || !c.sourceUrl) continue;
+          if(!companyOwnedEvidence(c)){await this.gap(job,'Company-owned product evidence still required for '+c.name+'; directory membership is not proof of ICP fit.');continue}
           try {
             await publicUrl(c.sourceUrl);
             await publicUrl("https://" + domain(c.domain));
@@ -444,9 +462,17 @@ export class App {
           purpose:
             "Find current named people responsible for the selected roles, not job vacancies.",
         });
-        const urls = array(r.results)
-          .map((x) => x.url)
-          .slice(0, 8);
+        const urls = [];
+        for (const candidate of array(r.results).slice(0, 8)) {
+          try {
+            urls.push(await publicUrl(candidate.url));
+          } catch (e) {
+            await this.gap(
+              job,
+              "Rejected source " + candidate.url + ": " + e.message,
+            );
+          }
+        }
         const f = urls.length
           ? await this.fish.fetchPages(urls)
           : { results: [], errors: [] };
@@ -458,6 +484,7 @@ export class App {
           `Find ALL publicly verifiable current people at ${c.name} who match ${JSON.stringify(w.targetPeople)}. Navigate the company website: use team menus, people directory filters, pagination, and individual profiles where available; inspect linked profiles for actual role evidence. Return {people:[{name:string,title:string,responsibility:string,contactUrl:string|null,sourceUrl:string,evidence:string}],coverageGaps:string[]}. Each person needs a current-role source URL actually visited and a short verbatim evidence quote. Do not infer names from open vacancies, guess emails, or claim complete coverage when access is limited. Fetched reference pages: ${JSON.stringify(f.results.map((p) => ({ url: p.url, text: p.text?.slice(0, 5000) }))).slice(0, 23000)}`,
         );
         const people = [];
+        const browserCandidates = [];
         for (const p of array(result.people)) {
           if (!p.name || !p.sourceUrl || !p.evidence) continue;
           try {
@@ -472,17 +499,14 @@ export class App {
                 .replace(/\s+/g, " ")
                 .includes(String(p.evidence).toLowerCase().replace(/\s+/g, " "))
             ) {
-              await this.gap(
-                job,
-                "Role quote not independently verified: " + p.name,
-              );
+              browserCandidates.push(p);
               continue;
             }
             people.push({
               name: text(p.name, 200),
               title: text(p.title || "", 300),
               responsibility: text(p.responsibility || "", 1500),
-              contactUrl: p.contactUrl || p.sourceUrl,
+              contactUrl: p.contactUrl || null,
               sources: [
                 { url: p.sourceUrl, excerpt: p.evidence, checkedAt: now() },
               ],
@@ -490,6 +514,28 @@ export class App {
           } catch (e) {
             await this.gap(job, p.name + ": " + e.message);
           }
+        }
+        if (browserCandidates.length) {
+          await this.progress(job, "Verifying dynamically rendered roles at " + c.name);
+          const checked = await this.browser(job, "contacts-verify-" + c.id,
+            browserCandidates[0].sourceUrl,
+            `Independently verify these candidate current employees at ${c.name}: ${JSON.stringify(browserCandidates)}. The candidates are UNVERIFIED and may have wrong URLs or roles. Fetch cannot read their dynamic profile data. Visit their source pages in the browser, wait for people data, and inspect team/profile links. Return only people whose full name AND current role you can actually see together. Correct wrong source URLs and titles. Return {people:[{name:string,title:string,responsibility:string,contactUrl:string|null,sourceUrl:string,evidence:string,verified:boolean}],coverageGaps:string[]}. evidence MUST contain the full name and exact displayed title, copied verbatim from the rendered page with whitespace collapsed. No commentary, no 'Profile shows', no ellipses, no paraphrases. verified is true ONLY if directly observed on the page. Exclude vacancies and unverifiable people. Finish after checking the candidates; do not expand the search.`);
+          const normalize = (v) => String(v || "").toLowerCase().replace(/\s+/g, " ").trim();
+          for (const p of array(checked.people)) {
+            if (p.verified !== true || !p.name || !p.title ||
+                !normalize(p.evidence).includes(normalize(p.name)) ||
+                !normalize(p.evidence).includes(normalize(p.title))) {
+              await this.gap(job, "Browser could not verify a complete name/title quote: " + (p.name || "unnamed candidate"));
+              continue;
+            }
+            await publicUrl(p.sourceUrl);
+            if (p.contactUrl) await publicUrl(p.contactUrl);
+            people.push({name:text(p.name,200), title:text(p.title,300),
+              responsibility:text(p.responsibility || "",1500), contactUrl:p.contactUrl || null,
+              sources:[{url:p.sourceUrl, excerpt:p.evidence, checkedAt:now(), verificationMethod:"Agent browser"}]});
+          }
+          for (const gap of array(checked.coverageGaps)) await this.gap(job, c.name + ": " + gap);
+          if (!checked.people?.length) await this.gap(job, "Dynamic role verification returned no confirmed people at " + c.name);
         }
         await this.addPeople(c.id, people);
         for (const gap of array(result.coverageGaps))
@@ -532,57 +578,51 @@ export class App {
         }
         for (const u of urls) await publicUrl(u);
         const f = await this.fish.fetchPages(urls, { ttl: 0 });
-        if (f.errors.length || !f.results.length)
+        for (const error of f.errors)
+          await this.gap(job, JSON.stringify(error));
+        if (!f.results.length)
           throw Error(
-            "Some event sources could not be read; last successful check retained",
+            "No readable event sources; last successful check retained",
           );
+        let complete = f.errors.length === 0;
         const result = await this.browser(
           job,
           "events-" + c.id,
-          urls[0],
+          f.results[0].url,
           `Inspect this event source and its release/news navigation for ${c.name}. Find only product launches, substantial changelog changes, target-role hires (${JSON.stringify(s.workspace.targetPeople)}) or funding events that actually occurred from ${new Date(Date.now() - 30 * 864e5).toISOString().slice(0, 10)} through ${now().slice(0, 10)}. A date on an article is not necessarily the event date. Never turn an open vacancy into a hire. Return {events:[{type:string,summary:string,occurredAt:string|null,relevanceReason:string,priority:number,sourceUrl:string,evidence:string}],coverageGaps:string[]}. Evidence must be a short exact quote; sourceUrl actually visited. Unknown event dates are null. Context: ${JSON.stringify(f.results.map((p) => ({ url: p.url, text: p.text?.slice(0, 8500) }))).slice(0, 35000)}`,
         );
-        await this.store.transact((s) => {
-          for (const e of array(result.events)) {
-            const page = f.results.find((p) => p.url === e.sourceUrl);
+        const verified = [];
+        for (const e of array(result.events)) {
+          try {
+            await publicUrl(e.sourceUrl);
+            const page =
+              f.results.find((p) => p.url === e.sourceUrl) ||
+              (await this.fish.fetchPages([e.sourceUrl], { ttl: 0 }))
+                .results[0];
             if (
-              !page ||
+              !page?.text ||
               !e.evidence ||
               !page.text
                 .toLowerCase()
                 .replace(/\s+/g, " ")
                 .includes(e.evidence.toLowerCase().replace(/\s+/g, " "))
             )
-              continue;
-            const dedupeKey = createHash("sha256")
-              .update(
-                c.id +
-                  "|" +
-                  e.type +
-                  "|" +
-                  e.occurredAt +
-                  "|" +
-                  e.summary.toLowerCase().replace(/\W/g, ""),
-              )
-              .digest("hex");
-            if (s.events.some((x) => x.dedupeKey === dedupeKey)) continue;
-            s.events.push({
-              ...e,
-              id: id(),
-              companyId: c.id,
-              dedupeKey,
-              priority: Math.max(1, Math.min(3, Number(e.priority) || 1)),
-              matchesCriteria: true,
-              status: "new",
-              detectedAt: now(),
-              sources: [
-                { url: e.sourceUrl, excerpt: e.evidence, checkedAt: now() },
-              ],
-            });
+              throw Error("Exact event quote not verified");
+            verified.push(e);
+          } catch (error) {
+            complete = false;
+            await this.gap(job, (e.summary || "Event") + ": " + error.message);
           }
-          s.companies.find((x) => x.id === c.id).lastSuccessfulCheckAt = now();
-        });
-        successes++;
+        }
+        await this.addEvents(c.id, verified);
+        if (array(result.coverageGaps).length) complete = false;
+        if (complete) {
+          await this.store.transact((s) => {
+            s.companies.find((x) => x.id === c.id).lastSuccessfulCheckAt =
+              now();
+          });
+          successes++;
+        }
         for (const gap of array(result.coverageGaps)) await this.gap(job, gap);
       } catch (e) {
         await this.gap(job, c.name + ": " + e.message);
@@ -594,6 +634,55 @@ export class App {
       successes
     )
       await this.store.transact((s) => (s.lastSuccessfulCheckAt = now()));
+  }
+  async addEvents(companyId, events) {
+    await this.store.transact((s) => {
+      if (
+        !s.companies.some(
+          (c) => c.id === companyId && c.listStatus === "confirmed",
+        )
+      )
+        return;
+      for (const e of events) {
+        // Conservative daily topic buckets prevent paraphrased/syndicated reports
+        // from reviving handled triggers. Preserve all supporting source links.
+        const type = /fund/i.test(e.type)
+          ? "funding"
+          : /hir|join/i.test(e.type)
+            ? "hire"
+            : /launch|change|release|product|feature/i.test(e.type)
+              ? "product"
+              : null;
+        if (!type) continue;
+        const date = e.occurredAt?.slice(0, 10) || "unknown";
+        const dedupeKey = createHash("sha256")
+          .update(companyId + "|" + type + "|" + date)
+          .digest("hex");
+        const prior = s.events.find((x) => x.dedupeKey === dedupeKey);
+        const source = {
+          url: e.sourceUrl,
+          excerpt: e.evidence,
+          checkedAt: now(),
+        };
+        if (prior) {
+          if (!prior.sources.some((x) => x.url === source.url))
+            prior.sources.push(source);
+          continue;
+        }
+        s.events.push({
+          ...e,
+          type,
+          id: id(),
+          companyId,
+          dedupeKey,
+          priority: Math.max(1, Math.min(3, Number(e.priority) || 1)),
+          matchesCriteria: true,
+          status: "new",
+          detectedAt: now(),
+          sources: [source],
+        });
+      }
+    });
   }
   async draft(personId) {
     let result;
@@ -689,57 +778,84 @@ export class App {
     );
     this.pump();
   }
+  async execute(job) {
+    try {
+      await this[job.type](job.input, job);
+      await this.store.transact((s) => {
+        const j = s.jobs.find((x) => x.id === job.id);
+        j.status = j.coverageGaps.length ? "partial" : "completed";
+        j.message = "Finished";
+        j.completedAt = now();
+      });
+    } catch (e) {
+      await this.store.transact((s) => {
+        const j = s.jobs.find((x) => x.id === job.id);
+        j.status = "failed";
+        j.message = String(e.message).slice(0, 700);
+        j.completedAt = now();
+      });
+    }
+  }
   async pump() {
     if (this.running) return;
     this.running = true;
     try {
-      while (true) {
+      while (this.executing.size < 2) {
         const s = await this.store.read(),
           job = s.jobs.find((j) => j.status === "queued");
         if (!job) break;
         await this.store.transact(
           (s) => (s.jobs.find((x) => x.id === job.id).status = "running"),
         );
-        try {
-          await this[job.type](job.input, job);
-          await this.store.transact((s) => {
-            const j = s.jobs.find((x) => x.id === job.id);
-            j.status = j.coverageGaps.length ? "partial" : "completed";
-            j.message = "Finished";
-            j.completedAt = now();
+        this.executing.add(job.id);
+        this.execute(job)
+          .catch((e) => console.error("Job persistence failed:", e.message))
+          .finally(() => {
+            this.executing.delete(job.id);
+            this.pump();
           });
-        } catch (e) {
-          await this.store.transact((s) => {
-            const j = s.jobs.find((x) => x.id === job.id);
-            j.status = "failed";
-            j.message = String(e.message).slice(0, 700);
-            j.completedAt = now();
-          });
-        }
       }
     } finally {
       this.running = false;
     }
   }
   async tick(t = Date.now()) {
-    const s = await this.store.read();
-    if (!s.workspace) return;
-    for (const [key, type, interval] of [
-      ["weekly", "discover", 7 * 864e5],
-      ["daily", "monitor", 864e5],
-    ]) {
-      const schedule = s.schedules[key];
-      if (
-        schedule.enabled &&
-        schedule.nextRunAt &&
-        Date.parse(schedule.nextRunAt) <= t
-      ) {
-        await this.store.transact((s) => {
-          s.schedules[key].nextRunAt = new Date(t + interval).toISOString();
-          s.schedules[key].lastRunAt = new Date(t).toISOString();
-        });
-        await this.enqueue(type);
+    await this.store.transact((s) => {
+      if (!s.workspace) return;
+      for (const [key, type, interval] of [
+        ["weekly", "discover", 7 * 864e5],
+        ["daily", "monitor", 864e5],
+      ]) {
+        const schedule = s.schedules[key];
+        if (
+          !schedule.enabled ||
+          !schedule.nextRunAt ||
+          Date.parse(schedule.nextRunAt) > t
+        )
+          continue;
+        let job = s.jobs.find(
+          (j) => j.type === type && ["queued", "running"].includes(j.status),
+        );
+        if (!job) {
+          job = {
+            id: id(),
+            type,
+            input: {},
+            status: "queued",
+            message: "Scheduled catch-up",
+            createdAt: now(),
+            updatedAt: now(),
+            agentRuns: {},
+            coverageGaps: [],
+            queriesCompleted: [],
+          };
+          s.jobs.push(job);
+        }
+        schedule.inFlightJobId = job.id;
+        schedule.nextRunAt = new Date(t + interval).toISOString();
+        schedule.lastRunAt = new Date(t).toISOString();
       }
-    }
+    });
+    this.pump();
   }
 }

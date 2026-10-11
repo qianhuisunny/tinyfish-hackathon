@@ -1,11 +1,14 @@
+import { getDomain } from "tldts";
 import { lookup } from "node:dns/promises";
 import { isIP } from "node:net";
 export function domain(url) {
-  return new URL(url.includes("://") ? url : "https://" + url).hostname
+  const host = new URL(url.includes("://") ? url : "https://" + url).hostname
     .toLowerCase()
     .replace(/^www\./, "")
     .replace(/\.$/, "");
+  return getDomain(host, { allowPrivateDomains: true }) || host;
 }
+
 function privateIP(a) {
   if (a.includes(":")) return !/^2[0-9a-f]{3}:/i.test(a);
   const [x, y] = a.split(".").map(Number);
@@ -85,20 +88,63 @@ export function jsonObject(value) {
 
 export function validateResearch(kind, value) {
   jsonObject(value);
-  if(kind==='product') {
-    for(const k of ['productName','productDescription','responsibilityDescription','callToAction'])text(value[k]);
-    for(const k of ['companyTypes','roles'])if(!Array.isArray(value[k])||value[k].some(x=>typeof x!=='string'))throw Error('Malformed product suggestions');
+  if (kind === "product") {
+    for (const k of [
+      "productName",
+      "productDescription",
+      "responsibilityDescription",
+      "callToAction",
+    ])
+      text(value[k]);
+    for (const k of ["companyTypes", "roles"])
+      if (
+        !Array.isArray(value[k]) ||
+        value[k].some((x) => typeof x !== "string")
+      )
+        throw Error("Malformed product suggestions");
     return value;
   }
-  const field={companies:'companies',contacts:'people',events:'events'}[kind];
-  if(!field||!Array.isArray(value[field]))throw Error('Malformed browser research: expected '+field+' array');
-  if(value[field].length>200)throw Error('Browser result exceeds record budget');
-  for(const item of value[field]){
+  const field = {
+    companies: "companies",
+    contacts: "people",
+    events: "events",
+  }[kind];
+  if (!field || !Array.isArray(value[field]))
+    throw Error("Malformed browser research: expected " + field + " array");
+  if (value[field].length > 200)
+    throw Error("Browser result exceeds record budget");
+  for (const item of value[field]) {
     jsonObject(item);
-    const keys=kind==='companies'?['name','domain','fitReason','sourceUrl','evidence']:kind==='contacts'?['name','title','sourceUrl','evidence']:['type','summary','sourceUrl','evidence'];
-    for(const k of keys)if(typeof item[k]!=='string'||!item[k].trim()||item[k].length>12000)throw Error('Malformed browser field: '+k);
-    if(kind==='events'&&item.occurredAt!==null&&(!/^\d{4}-\d{2}-\d{2}/.test(item.occurredAt)||!Number.isFinite(Date.parse(item.occurredAt))))throw Error('Event date must be ISO or null');
+    const keys =
+      kind === "companies"
+        ? ["name", "domain", "fitReason", "sourceUrl", "evidence"]
+        : kind === "contacts"
+          ? ["name", "title", "sourceUrl", "evidence"]
+          : ["type", "summary", "sourceUrl", "evidence"];
+    for (const k of keys)
+      if (
+        typeof item[k] !== "string" ||
+        !item[k].trim() ||
+        item[k].length > 12000
+      )
+        throw Error("Malformed browser field: " + k);
+    if (
+      kind === "events" &&
+      item.occurredAt !== null &&
+      (!/^\d{4}-\d{2}-\d{2}/.test(item.occurredAt) ||
+        !Number.isFinite(Date.parse(item.occurredAt)))
+    )
+      throw Error("Event date must be ISO or null");
   }
-  if(value.coverageGaps!==undefined&&(!Array.isArray(value.coverageGaps)||value.coverageGaps.some(x=>typeof x!=='string')))throw Error('Malformed coverage gaps');
+  if (
+    value.coverageGaps !== undefined &&
+    (!Array.isArray(value.coverageGaps) ||
+      value.coverageGaps.some((x) => typeof x !== "string"))
+  )
+    throw Error("Malformed coverage gaps");
   return value;
+}
+
+export function companyOwnedEvidence(company){
+  try{return domain(company.domain)===domain(company.sourceUrl)}catch{return false}
 }

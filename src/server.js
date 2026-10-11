@@ -126,6 +126,8 @@ export async function createAppServer({
       if (path === "/api/product-context") {
         await store.transact((s) => {
           if (!s.workspace) throw Error("Confirm your brief first");
+          if (body.productName)
+            s.workspace.productName = text(body.productName, 200);
           s.workspace.productDescription = text(body.productDescription);
           s.workspace.messageStyle = {
             tone: text(body.tone, 100),
