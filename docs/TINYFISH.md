@@ -11,7 +11,7 @@ All use X-API-Key from server-only TINYFISH_API_KEY. Search supports page 0–10
 
 The two application “agents” (company discovery and contact research) orchestrate these adapters. TinyFish Agent is the actual browser-executed task when a source needs interaction. A plain page extraction belongs to Fetch; raw Browser and Vault are unnecessary for the MVP.
 
-The backend LLM generates the brief, query plan, evidence-constrained assessments and drafts. Keep its provider configurable (LLM_API_KEY, LLM_MODEL, LLM_BASE_URL). TinyFish browsing is not a substitute for durable context, application scheduling or general-purpose drafting.
+The implemented MVP uses TinyFish Agent for browser-grounded product and fit assessment. Queries are built from confirmed criteria. Drafts use editable evidence-grounded English templates; no separate LLM API key is required. Custom tone/language notes are retained for manual draft editing. The application owns durable context and scheduling.
 
 Daily monitoring is application-owned scheduled Search + Fetch verification; Agent can inspect interactive release/history pages when needed. Native TinyFish Monitor is a later option, not a dependency. Weekly discovery is a separate schedule. Both stop when the app process stops.
 
@@ -20,5 +20,10 @@ Sources:
 - https://docs.tinyfish.ai/fetch-api/reference
 - https://docs.tinyfish.ai/agent-api/reference
 
+## Dynamic contact pages
+When Fetch returns an unrendered page shell, a second Agent run visits the proposed sources and verifies visible names and roles. The app requires an explicit verification flag plus name/title in the quoted evidence, and labels the result “Agent browser.” This is browser-observed model extraction, not an independent Fetch string match.
+
 ## Live verification
 Run a real Product Gym onboarding attempt; record a real access failure if present and exercise pasted-description fallback. Find real matching companies, confirm the list, and research all relevant discoverable people at the frozen top three. Include one justified interactive source in Agent evidence. Save sanitized run IDs, URLs, timestamps, coverage gaps and primitive purpose in docs/verification.md. Do not commit API keys or private contact notes. If cloud credentials are missing, finish deterministic tests and request secure environment configuration; do not report a live success.
+
+Implementation now runs locally, per the user’s explicit instruction after the cloud Work task did not execute.
